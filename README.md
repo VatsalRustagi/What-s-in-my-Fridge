@@ -3,15 +3,15 @@ An iOS app to take note and keep track of food items in the fridge and in how ma
 
 - Easily add food items, just enter the name and in how many days it will expire and it will appear in the tableView below.
 
-![simulator screen shot aug 29 2017 8 09 07 pm](https://user-images.githubusercontent.com/26324291/29853703-49255a8e-8cf6-11e7-9a99-34191a5ad46f.png)
+![webp net-resizeimage](https://user-images.githubusercontent.com/26324291/29854044-6af30c54-8cf8-11e7-8a66-bae73afa0120.png)
 
 - Entered something wrong? Just click on the cell and edit the details and save it. You have the option to delete a particular food item here as well.
 
-![simulator screen shot aug 29 2017 8 09 20 pm](https://user-images.githubusercontent.com/26324291/29853707-4b0f94c2-8cf6-11e7-82e6-35d93d3aeabd.png)
+![webp net-resizeimage-2](https://user-images.githubusercontent.com/26324291/29854050-6fa12a24-8cf8-11e7-9f59-81dc84d581f4.png)
 
 - Threw away all the food? Click on the plus button and clear all the items in the list.
 
-![simulator screen shot aug 29 2017 8 11 26 pm](https://user-images.githubusercontent.com/26324291/29853713-4d406640-8cf6-11e7-993a-e6d9bd4dfa9b.png)
+![webp net-resizeimage-3](https://user-images.githubusercontent.com/26324291/29854051-7255e944-8cf8-11e7-88cd-78c6d7399340.png)
 
 Inspiration: I could not keep track of the food in my fridge when I get too busy with work. This results in the food items going bad in the fridge. Therefore to solve my problem I made this app to keep track of these food items.
 
