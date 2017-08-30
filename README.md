@@ -1,13 +1,13 @@
-# What-s-in-my-Fridge
+# What's in my Fridge
 ## An iOS app to take note and keep track of food items in the fridge and in how many days it expires.
 
-** Inspiration: I could not keep track of the food in my fridge when I get too busy with work. This results in the food items going bad in the fridge. Therefore to solve my problem I made this app to keep track of these food items. **
+### Inspiration: I could not keep track of the food in my fridge when I get too busy with work. This results in the food items going bad in the fridge. Therefore to solve my problem I made this app to keep track of these food items.
 
-** Implementation:
+### Implementation:
 - Heavily used CoreData to save the data in the app, that is the data is not lost even after the user restarts the app.
 - Implemented NSFetchResultController and its delegate to maintain the insert, update, delete and move type of operations when editing the tableView data.
 - Integrated tableView with CoreData.
-- Implemented RevealingSplashView and Floaty pods to enhance the user interface. **
+- Implemented RevealingSplashView and Floaty pods to enhance the user interface.
 
 ## SCREENSHOTS
 
