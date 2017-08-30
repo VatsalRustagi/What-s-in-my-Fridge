@@ -1,0 +1,15 @@
+PODS:
+  - Floaty (3.0.0)
+  - RevealingSplashView (0.4.0)
+
+DEPENDENCIES:
+  - Floaty (~> 3.0.0)
+  - RevealingSplashView
+
+SPEC CHECKSUMS:
+  Floaty: d1be5d323094f0de422bb615452d00ba26ac74dd
+  RevealingSplashView: 72be158ad5e1bc72713e8f78383dc3e1803ce4d1
+
+PODFILE CHECKSUM: b303aadcab8e32cd9ecf32c67a58f0a8f8be5568
+
+COCOAPODS: 1.2.1

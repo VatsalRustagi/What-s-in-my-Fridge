@@ -1,0 +1,6 @@
+framework module Pods_WINF {
+  umbrella header "Pods-WINF-umbrella.h"
+
+  export *
+  module * { export * }
+}
