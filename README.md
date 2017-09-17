@@ -17,20 +17,26 @@
       <img src="https://user-images.githubusercontent.com/26324291/29854044-6af30c54-8cf8-11e7-8a66-bae73afa0120.png" width="400">
     </td>
     <td align="center">
-      Easily add food items, just enter the name and in how many days </br> it will expire and it will appear in the tableView below.
+      Easily add food items, just enter the name and in how many days it will expire and it will appear in the tableView below.
     </td>
-
-- Entered something wrong? Just click on the cell and edit the details and save it. You have the option to delete a particular food item here as well.
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/26324291/29854050-6fa12a24-8cf8-11e7-9f59-81dc84d581f4.png" width="400">
-</p>
-
-- Threw away all the food? Click on the plus button and clear all the items in the list.
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/26324291/29854051-7255e944-8cf8-11e7-88cd-78c6d7399340.png" width="400">
-</p>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://user-images.githubusercontent.com/26324291/29854050-6fa12a24-8cf8-11e7-9f59-81dc84d581f4.png" width="400">
+    </td>
+    <td align="center">
+      Entered something wrong? Just click on the cell and edit the details and save it. You have the option to delete a particular food item here as well.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://user-images.githubusercontent.com/26324291/29854051-7255e944-8cf8-11e7-88cd-78c6d7399340.png" width="400">
+    </td>
+    <td align="center">
+      Threw away all the food? Click on the plus button and clear all the items in the list.
+    </td>
+  </tr>
+</table>
 
 
 
