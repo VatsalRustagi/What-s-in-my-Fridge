@@ -11,10 +11,9 @@
 
 ## SCREENSHOTS
 
-- Easily add food items, just enter the name and in how many days it will expire and it will appear in the tableView below.
-
-<p align="center">
+<p>
 <img src="https://user-images.githubusercontent.com/26324291/29854044-6af30c54-8cf8-11e7-8a66-bae73afa0120.png" width="400">
+Easily add food items, just enter the name and in how many days </br> it will expire and it will appear in the tableView below.
 </p>
 
 - Entered something wrong? Just click on the cell and edit the details and save it. You have the option to delete a particular food item here as well.
