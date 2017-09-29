@@ -21,10 +21,10 @@ class MainVC: UIViewController{
         
         attemptFetch()
         
-        let revealingSplashView = RevealingSplashView(iconImage: #imageLiteral(resourceName: "milk_carton"),iconInitialSize: CGSize(width: 70, height: 70), backgroundColor: UIColor(red:0.29, green:0.64, blue:0.54, alpha:0.95))
+        let revealingSplashView = RevealingSplashView(iconImage: #imageLiteral(resourceName: "milk"),iconInitialSize: CGSize(width: 70, height: 70), backgroundColor: UIColor(red:0.29, green:0.64, blue:0.54, alpha:0.95))
         revealingSplashView.animationType = .squeezeAndZoomOut
         self.view.addSubview(revealingSplashView)
-        
+
         revealingSplashView.startAnimation(){
             self.attemptFetch()
         }
