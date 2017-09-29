@@ -15,7 +15,6 @@ class MainVC: UIViewController{
     
     var controller: NSFetchedResultsController<Items>!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -126,7 +125,7 @@ class MainVC: UIViewController{
         appDelegate.saveContext()
     }
     
-    func saveItem(){
+    @objc func saveItem(){
         if check(){
             let item = Items(context: context)
             item.name = fridgeItem.text!
