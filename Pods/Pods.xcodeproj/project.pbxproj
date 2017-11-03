@@ -7,102 +7,122 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A113A2FC5F91269AB55DF9FA683015F /* Floaty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE161D13A114CA69D074118351AC181 /* Floaty.swift */; };
-		1982E7ED9231E948A558799362FEA8B3 /* Floaty-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC34739F771FCC8A0DA5A882518976 /* Floaty-dummy.m */; };
-		2B0F01EA49B018812828F4DE0CA53194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		0A113A2FC5F91269AB55DF9FA683015F /* Floaty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57741CDB633598526C19E5C041AD57CA /* Floaty.swift */; };
+		10BF8046B73D6DB0654FA1E9210A8FAE /* RevealingSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD1772255D221FA096A3CF072782B4D /* RevealingSplashView.swift */; };
+		18FAC351847FB4239FBB3EB781556B9D /* RevealingSplashView.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B7B467B9AB1052DE018C9B1A15466E /* RevealingSplashView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1939DBB5FD4740C7BD8A0F3ADBD4370D /* Pods-WINF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE613265472F7459DD1B6DABB96456 /* Pods-WINF-dummy.m */; };
+		1982E7ED9231E948A558799362FEA8B3 /* Floaty-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F81E23D3671FD7B56A870F5B6831B /* Floaty-dummy.m */; };
+		227AF99604136AC7BC1990A323FEF680 /* Pods-WINF-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D85BCD1CD94D3F05F9F480B0E49F18E4 /* Pods-WINF-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F30735E6BB3BB6DD455904BE0452769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		31DEB9C293D974C0014F52E7853C3E0B /* FloatyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458C32A578386A0EDFAA1215F0BA49E9 /* FloatyItem.swift */; };
-		392E9EFC2DFC241B7B01BE1E4B41067E /* Pods-WINF-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D85BCD1CD94D3F05F9F480B0E49F18E4 /* Pods-WINF-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40CA48F3BCA18A82B8AEAE6374C206B0 /* RevealingSplashView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C26BDF292869BA63292688ECFFB6D /* RevealingSplashView-dummy.m */; };
-		41F590B7DFD46B108D95CFE28E25BED4 /* SplashAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919DBCD5E2FACE892D17FB12F12656F9 /* SplashAnimatable.swift */; };
-		530356FC11C4F4A1F641A30F65C5684F /* FloatyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C484D98FD14581881DC4A09AB3530822 /* FloatyWindow.swift */; };
+		31DEB9C293D974C0014F52E7853C3E0B /* FloatyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A051869FEF33505299D7605BFBDD9C /* FloatyItem.swift */; };
+		40D026CB4DE1EE9A86C7B1B87BD6CC0C /* UDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E13D993B2CEE64458FE6B66FE42ACF /* UDatePicker.swift */; };
+		4BA553AE4D443E188868147BF9EE0610 /* RevealingSplashView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E073BA0AE7D7CE3DFA83E21C0555B4 /* RevealingSplashView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		530356FC11C4F4A1F641A30F65C5684F /* FloatyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4FB0C2CACB32DBB84E107CCB16A55E /* FloatyWindow.swift */; };
+		6FE91A0F156F06F2669F32D966F4F4A2 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CA142FDD0039F6E99BE9995F5C00A9 /* Animations.swift */; };
 		7060C75B128119AE663619DCED898CF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		7067387FF3974A5BA87F204F718C33F5 /* Floaty-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C760EEA1725254F844BFCEB7F681D5A /* Floaty-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E96697B51D3FD3DB5EB1BE3EF02B411 /* FloatyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E06A76992A8DFC145C079F750BAEBB7 /* FloatyManager.swift */; };
-		9054A1CA64F47D0BEE3744D146CD26A2 /* FloatyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E8DF0B42A7C32FE59AABCDBFBEA97 /* FloatyDelegate.swift */; };
-		A108251AE126837E933E24A0F6C10E5A /* Pods-WINF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE613265472F7459DD1B6DABB96456 /* Pods-WINF-dummy.m */; };
-		AD28013646EB6E1334949F82611CC63B /* RevealingSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795E35F477CFBBC9C6F9A24E68BE0E20 /* RevealingSplashView.swift */; };
-		B21B193AB8FF4BCB45984263DAB8BE0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		BCFD9251A70CE7A29AEF72B8B3282921 /* RevealingSplashView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A89A915EC817861B70F3B6422089CC7 /* RevealingSplashView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3BEC7F8FE9F160B0BB69309D9010F80 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5CCF724B48D890D2E42070F942191 /* Animations.swift */; };
-		C881F248F8D2359F4B314279153161A6 /* RevealingSplashView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 091DBA1100BE8B8BAF603FCB9F27BC8F /* RevealingSplashView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5B4C3EE44C285ACF24E077895435175 /* FloatyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D4B04E296081A0E2038BC2214F5CCC /* FloatyViewController.swift */; };
-		FBF06640B768518CE843573BE2051F86 /* SplashAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDA2FC338E18231DC6B9F1780CA8EC8 /* SplashAnimationType.swift */; };
+		7067387FF3974A5BA87F204F718C33F5 /* Floaty-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C4D7CB4579F881EE5450F8A193E278 /* Floaty-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8156D99FC2C259B53AB07EA612862C5B /* SplashAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD726F52D4C7C268C1EBF0957AF84E /* SplashAnimationType.swift */; };
+		82F938C1AB1630E976463D6DF8D5EE67 /* SplashAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB79B84E2493BC0B47EC95FE9DC960 /* SplashAnimatable.swift */; };
+		8BDAE9B31F05CCD1DFBBDD4035F6EB6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		8E96697B51D3FD3DB5EB1BE3EF02B411 /* FloatyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297525F8D7A05C31782E2B3132FC8B0 /* FloatyManager.swift */; };
+		9054A1CA64F47D0BEE3744D146CD26A2 /* FloatyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB740E956D1E9CBE4F730F9B942FF92C /* FloatyDelegate.swift */; };
+		925E9DF5FBC671864CBAAA392A6028EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		A5D1CEB8B73130A7101F1EE1A5867683 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		A90A11CE4B0842BAFB9CC3DAF12A8F25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		B209E6CEE64964E2265235FA062554F4 /* RevealingSplashView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0A4F917DBF83871781657FF48EE773 /* RevealingSplashView-dummy.m */; };
+		D049785B9BE6831CC665FC1041A163CD /* UDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 788162B818DC792ADA77B0268D0494CF /* UDatePicker-dummy.m */; };
+		D951641879246B8B818BAD93DB22848A /* UDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2894942550C25AAB845F635A98EA3DF4 /* UDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B4C3EE44C285ACF24E077895435175 /* FloatyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F5E92AF209F4DA8E66F038757E332 /* FloatyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CCC094000F279D9D24B195FDDE204E04 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D702D3CED94B693A247A1979C100AA2C;
-			remoteInfo = RevealingSplashView;
-		};
-		D3477C490D4D9C815B42ED2E52D3A837 /* PBXContainerItemProxy */ = {
+		3EAACF8C81902551D2AAC8AC8553C387 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5C123A74CD9D6CDA27160800BA68B01A;
 			remoteInfo = Floaty;
 		};
+		4D2107312CAEEDFD1EEC1B989BFA53DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35CA49A4A94ECDD8E4F6432849E91D72;
+			remoteInfo = RevealingSplashView;
+		};
+		C4DDC3402A405861FE3AEB064A60CCD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA22601C03D760892795DA97C04E892;
+			remoteInfo = UDatePicker;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		091DBA1100BE8B8BAF603FCB9F27BC8F /* RevealingSplashView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-umbrella.h"; sourceTree = "<group>"; };
-		0C0B971C7A3EAE2743EF0C8497864A02 /* Floaty.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Floaty.modulemap; sourceTree = "<group>"; };
-		0CB2739397BCA037582C1C7B24A805F4 /* Floaty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Floaty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E06A76992A8DFC145C079F750BAEBB7 /* FloatyManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyManager.swift; path = Sources/FloatyManager.swift; sourceTree = "<group>"; };
-		18010D2D000D1C933C001247A671CFCC /* Floaty.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Floaty.xcconfig; sourceTree = "<group>"; };
-		26CCA9CD5236D4DBBE615DD1625C1601 /* RevealingSplashView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevealingSplashView.xcconfig; sourceTree = "<group>"; };
+		15EEF2B962BC6DD1C8653485277EC530 /* Floaty-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Floaty-prefix.pch"; sourceTree = "<group>"; };
+		19E073BA0AE7D7CE3DFA83E21C0555B4 /* RevealingSplashView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-umbrella.h"; sourceTree = "<group>"; };
+		2894942550C25AAB845F635A98EA3DF4 /* UDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UDatePicker-umbrella.h"; sourceTree = "<group>"; };
 		2B349D1060583B51A477DC64B59EFD2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		313A985F350881F5FD5A7ED8DD266C9A /* Floaty-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Floaty-prefix.pch"; sourceTree = "<group>"; };
-		3BDA2FC338E18231DC6B9F1780CA8EC8 /* SplashAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimationType.swift; path = RevealingSplashView/SplashAnimationType.swift; sourceTree = "<group>"; };
-		3F0E8DF0B42A7C32FE59AABCDBFBEA97 /* FloatyDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyDelegate.swift; path = Sources/FloatyDelegate.swift; sourceTree = "<group>"; };
-		458C32A578386A0EDFAA1215F0BA49E9 /* FloatyItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyItem.swift; path = Sources/FloatyItem.swift; sourceTree = "<group>"; };
+		395670A0F07802557A0C2E89580A0C33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50CA0BE8D11569152734BEC9EBA0FD26 /* Floaty.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Floaty.xcconfig; sourceTree = "<group>"; };
+		50E13D993B2CEE64458FE6B66FE42ACF /* UDatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UDatePicker.swift; sourceTree = "<group>"; };
+		560B4C74B32248A62AB19961DD2EE82F /* RevealingSplashView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RevealingSplashView.modulemap; sourceTree = "<group>"; };
+		57741CDB633598526C19E5C041AD57CA /* Floaty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Floaty.swift; path = Sources/Floaty.swift; sourceTree = "<group>"; };
+		5AF3C190021AB4962BD708B412BED3E0 /* UDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UDatePicker.xcconfig; sourceTree = "<group>"; };
+		5D5C5889479FCD8527FD80E16CD47EEE /* Floaty.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Floaty.modulemap; sourceTree = "<group>"; };
+		60AF3DB03FC409BAC9CC0060D483000C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65D0BD2D85BB56149FC143530B1D4DA3 /* Pods-WINF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WINF.release.xcconfig"; sourceTree = "<group>"; };
-		6A3337824F6B8087A56A07E06682B857 /* RevealingSplashView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RevealingSplashView.modulemap; sourceTree = "<group>"; };
+		6B7F81E23D3671FD7B56A870F5B6831B /* Floaty-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Floaty-dummy.m"; sourceTree = "<group>"; };
 		6D4CF64FE80282EAA53569EE4CE5E362 /* Pods-WINF-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WINF-resources.sh"; sourceTree = "<group>"; };
-		75E01ED58FD42A85D21EE9CE15FFB5B7 /* Pods-WINF.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WINF.modulemap"; sourceTree = "<group>"; };
-		795E35F477CFBBC9C6F9A24E68BE0E20 /* RevealingSplashView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RevealingSplashView.swift; path = RevealingSplashView/RevealingSplashView.swift; sourceTree = "<group>"; };
-		7C760EEA1725254F844BFCEB7F681D5A /* Floaty-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Floaty-umbrella.h"; sourceTree = "<group>"; };
+		75E01ED58FD42A85D21EE9CE15FFB5B7 /* Pods-WINF.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WINF.modulemap"; sourceTree = "<group>"; };
+		788162B818DC792ADA77B0268D0494CF /* UDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UDatePicker-dummy.m"; sourceTree = "<group>"; };
+		8297525F8D7A05C31782E2B3132FC8B0 /* FloatyManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyManager.swift; path = Sources/FloatyManager.swift; sourceTree = "<group>"; };
 		83391317358047B547C4C744A75FBA01 /* Pods-WINF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WINF.debug.xcconfig"; sourceTree = "<group>"; };
+		84BD726F52D4C7C268C1EBF0957AF84E /* SplashAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimationType.swift; path = RevealingSplashView/SplashAnimationType.swift; sourceTree = "<group>"; };
 		86A33CE122DA13A42DF9D99F0063F799 /* Pods-WINF-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WINF-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8A89A915EC817861B70F3B6422089CC7 /* RevealingSplashView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevealingSplashView.h; path = RevealingSplashView/RevealingSplashView.h; sourceTree = "<group>"; };
-		8B6C26BDF292869BA63292688ECFFB6D /* RevealingSplashView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RevealingSplashView-dummy.m"; sourceTree = "<group>"; };
 		8BFE613265472F7459DD1B6DABB96456 /* Pods-WINF-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WINF-dummy.m"; sourceTree = "<group>"; };
-		8EE161D13A114CA69D074118351AC181 /* Floaty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Floaty.swift; path = Sources/Floaty.swift; sourceTree = "<group>"; };
-		919DBCD5E2FACE892D17FB12F12656F9 /* SplashAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimatable.swift; path = RevealingSplashView/SplashAnimatable.swift; sourceTree = "<group>"; };
-		9383A10CFC5CDD74ACAE7299B387641E /* RevealingSplashView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93D4B04E296081A0E2038BC2214F5CCC /* FloatyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyViewController.swift; path = Sources/FloatyViewController.swift; sourceTree = "<group>"; };
-		98B5CCF724B48D890D2E42070F942191 /* Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animations.swift; path = RevealingSplashView/Animations.swift; sourceTree = "<group>"; };
-		9A535A633A4D6C7AC2952E8326651198 /* Pods_WINF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WINF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0A4F917DBF83871781657FF48EE773 /* RevealingSplashView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RevealingSplashView-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BD1772255D221FA096A3CF072782B4D /* RevealingSplashView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RevealingSplashView.swift; path = RevealingSplashView/RevealingSplashView.swift; sourceTree = "<group>"; };
+		A3A1295410728F653331F72D030FED90 /* UDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UDatePicker.framework; path = UDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8B7B467B9AB1052DE018C9B1A15466E /* RevealingSplashView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevealingSplashView.h; path = RevealingSplashView/RevealingSplashView.h; sourceTree = "<group>"; };
 		ACB53A7337D37951ACA6FF73A6F83CC5 /* Pods-WINF-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WINF-frameworks.sh"; sourceTree = "<group>"; };
+		B0CA142FDD0039F6E99BE9995F5C00A9 /* Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animations.swift; path = RevealingSplashView/Animations.swift; sourceTree = "<group>"; };
 		B2D58CFD7AB68E76906A3E35FC8AAE65 /* Pods-WINF-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WINF-acknowledgements.plist"; sourceTree = "<group>"; };
-		B3FC34739F771FCC8A0DA5A882518976 /* Floaty-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Floaty-dummy.m"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C36986ABE5E9C717B8F46EB493439BA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C484D98FD14581881DC4A09AB3530822 /* FloatyWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyWindow.swift; path = Sources/FloatyWindow.swift; sourceTree = "<group>"; };
+		BDE377816472CC2894744D8E4A79E232 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C109C0039BC0E20BE533D626DF632B02 /* RevealingSplashView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RevealingSplashView.framework; path = RevealingSplashView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1171878C3384A12DB8C326CA7D4225E /* UDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		D2C4D7CB4579F881EE5450F8A193E278 /* Floaty-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Floaty-umbrella.h"; sourceTree = "<group>"; };
 		D85BCD1CD94D3F05F9F480B0E49F18E4 /* Pods-WINF-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WINF-umbrella.h"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E0ED075501899E5F8EA2CF53FDCFB7A4 /* RevealingSplashView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RevealingSplashView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F739A0805DA7FE0517E4FDA54809D4D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA03E44861321218B1044393DD15FA80 /* Floaty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Floaty.framework; path = Floaty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2A06B65EE2EB3E1BF4B4707F4C059B /* UDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UDatePicker.modulemap; sourceTree = "<group>"; };
+		E8A051869FEF33505299D7605BFBDD9C /* FloatyItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyItem.swift; path = Sources/FloatyItem.swift; sourceTree = "<group>"; };
+		EB569E675CCF64CB11C8C43331466253 /* Pods_WINF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WINF.framework; path = "Pods-WINF.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB740E956D1E9CBE4F730F9B942FF92C /* FloatyDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyDelegate.swift; path = Sources/FloatyDelegate.swift; sourceTree = "<group>"; };
+		EC4F5E92AF209F4DA8E66F038757E332 /* FloatyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyViewController.swift; path = Sources/FloatyViewController.swift; sourceTree = "<group>"; };
+		ED4FB0C2CACB32DBB84E107CCB16A55E /* FloatyWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyWindow.swift; path = Sources/FloatyWindow.swift; sourceTree = "<group>"; };
+		ED9E0D10F52567E4CF6D851AAF7D9AD4 /* RevealingSplashView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevealingSplashView.xcconfig; sourceTree = "<group>"; };
+		F1B38C12BAD61AEE8754AF6CA390264A /* RevealingSplashView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-prefix.pch"; sourceTree = "<group>"; };
+		F3EB79B84E2493BC0B47EC95FE9DC960 /* SplashAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimatable.swift; path = RevealingSplashView/SplashAnimatable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CEE8774F3D89D3B2FEB628B60774E158 /* Frameworks */ = {
+		215DCBBBEE5322009F154A0530EAD9FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B21B193AB8FF4BCB45984263DAB8BE0D /* Foundation.framework in Frameworks */,
+				8BDAE9B31F05CCD1DFBBDD4035F6EB6D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D00FD60BBC3297A03B910E9079BC0688 /* Frameworks */ = {
+		4F53365659F5EEF8D3BE0AEC9C0F0D5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B0F01EA49B018812828F4DE0CA53194 /* Foundation.framework in Frameworks */,
+				A5D1CEB8B73130A7101F1EE1A5867683 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,31 +135,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FFC3BFAEDDEE52F6F86DE9BC09BF99A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925E9DF5FBC671864CBAAA392A6028EF /* Foundation.framework in Frameworks */,
+				A90A11CE4B0842BAFB9CC3DAF12A8F25 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EA8B63F674C0467CEAEBFBE7971D6A4 /* Products */ = {
+		04EC78E1E178E828B93A69255E731787 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0CB2739397BCA037582C1C7B24A805F4 /* Floaty.framework */,
-				9A535A633A4D6C7AC2952E8326651198 /* Pods_WINF.framework */,
-				E0ED075501899E5F8EA2CF53FDCFB7A4 /* RevealingSplashView.framework */,
+				E755DC5A1AF46C9F5C636DF9892FAAF8 /* Floaty */,
+				BF3EA0284A69B6069BEA03FE55144F8F /* RevealingSplashView */,
+				5AB6D366D62E5873B34F7F467F3AFC34 /* UDatePicker */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		262CBCCE94E879E59B5D8127AD879D6D /* Floaty */ = {
+		2B03C8E784C4B306B2108A3C974D433C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8EE161D13A114CA69D074118351AC181 /* Floaty.swift */,
-				3F0E8DF0B42A7C32FE59AABCDBFBEA97 /* FloatyDelegate.swift */,
-				458C32A578386A0EDFAA1215F0BA49E9 /* FloatyItem.swift */,
-				0E06A76992A8DFC145C079F750BAEBB7 /* FloatyManager.swift */,
-				93D4B04E296081A0E2038BC2214F5CCC /* FloatyViewController.swift */,
-				C484D98FD14581881DC4A09AB3530822 /* FloatyWindow.swift */,
-				793AEFA874D9484177AE85A530675F3E /* Support Files */,
+				5D5C5889479FCD8527FD80E16CD47EEE /* Floaty.modulemap */,
+				50CA0BE8D11569152734BEC9EBA0FD26 /* Floaty.xcconfig */,
+				6B7F81E23D3671FD7B56A870F5B6831B /* Floaty-dummy.m */,
+				15EEF2B962BC6DD1C8653485277EC530 /* Floaty-prefix.pch */,
+				D2C4D7CB4579F881EE5450F8A193E278 /* Floaty-umbrella.h */,
+				60AF3DB03FC409BAC9CC0060D483000C /* Info.plist */,
 			);
-			path = Floaty;
+			name = "Support Files";
+			path = "../Target Support Files/Floaty";
 			sourceTree = "<group>";
 		};
 		310013F01F8E49CC378227D7040E775C /* Targets Support Files */ = {
@@ -150,26 +179,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		374195C75CACD6EC2D25A2D84AD4CA2D /* Pods */ = {
+		31816C74EBD0ACCAA93B485C5A6A6E30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				262CBCCE94E879E59B5D8127AD879D6D /* Floaty */,
-				37F3B204A2DB226BDDF4480A78394526 /* RevealingSplashView */,
+				DA03E44861321218B1044393DD15FA80 /* Floaty.framework */,
+				EB569E675CCF64CB11C8C43331466253 /* Pods_WINF.framework */,
+				C109C0039BC0E20BE533D626DF632B02 /* RevealingSplashView.framework */,
+				A3A1295410728F653331F72D030FED90 /* UDatePicker.framework */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		37F3B204A2DB226BDDF4480A78394526 /* RevealingSplashView */ = {
-			isa = PBXGroup;
-			children = (
-				98B5CCF724B48D890D2E42070F942191 /* Animations.swift */,
-				8A89A915EC817861B70F3B6422089CC7 /* RevealingSplashView.h */,
-				795E35F477CFBBC9C6F9A24E68BE0E20 /* RevealingSplashView.swift */,
-				919DBCD5E2FACE892D17FB12F12656F9 /* SplashAnimatable.swift */,
-				3BDA2FC338E18231DC6B9F1780CA8EC8 /* SplashAnimationType.swift */,
-				53AF46D93832EFFA7D92699F2BA3FEA2 /* Support Files */,
-			);
-			path = RevealingSplashView;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -189,32 +207,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		53AF46D93832EFFA7D92699F2BA3FEA2 /* Support Files */ = {
+		5AB6D366D62E5873B34F7F467F3AFC34 /* UDatePicker */ = {
 			isa = PBXGroup;
 			children = (
-				F739A0805DA7FE0517E4FDA54809D4D0 /* Info.plist */,
-				6A3337824F6B8087A56A07E06682B857 /* RevealingSplashView.modulemap */,
-				26CCA9CD5236D4DBBE615DD1625C1601 /* RevealingSplashView.xcconfig */,
-				8B6C26BDF292869BA63292688ECFFB6D /* RevealingSplashView-dummy.m */,
-				9383A10CFC5CDD74ACAE7299B387641E /* RevealingSplashView-prefix.pch */,
-				091DBA1100BE8B8BAF603FCB9F27BC8F /* RevealingSplashView-umbrella.h */,
+				50E13D993B2CEE64458FE6B66FE42ACF /* UDatePicker.swift */,
+				7F755F687279500A7161139497B5747A /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/RevealingSplashView";
-			sourceTree = "<group>";
-		};
-		793AEFA874D9484177AE85A530675F3E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0C0B971C7A3EAE2743EF0C8497864A02 /* Floaty.modulemap */,
-				18010D2D000D1C933C001247A671CFCC /* Floaty.xcconfig */,
-				B3FC34739F771FCC8A0DA5A882518976 /* Floaty-dummy.m */,
-				313A985F350881F5FD5A7ED8DD266C9A /* Floaty-prefix.pch */,
-				7C760EEA1725254F844BFCEB7F681D5A /* Floaty-umbrella.h */,
-				C36986ABE5E9C717B8F46EB493439BA9 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Floaty";
+			name = UDatePicker;
+			path = UDatePicker;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -222,10 +222,24 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				374195C75CACD6EC2D25A2D84AD4CA2D /* Pods */,
-				0EA8B63F674C0467CEAEBFBE7971D6A4 /* Products */,
+				04EC78E1E178E828B93A69255E731787 /* Pods */,
+				31816C74EBD0ACCAA93B485C5A6A6E30 /* Products */,
 				310013F01F8E49CC378227D7040E775C /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7F755F687279500A7161139497B5747A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDE377816472CC2894744D8E4A79E232 /* Info.plist */,
+				DF2A06B65EE2EB3E1BF4B4707F4C059B /* UDatePicker.modulemap */,
+				5AF3C190021AB4962BD708B412BED3E0 /* UDatePicker.xcconfig */,
+				788162B818DC792ADA77B0268D0494CF /* UDatePicker-dummy.m */,
+				D1171878C3384A12DB8C326CA7D4225E /* UDatePicker-prefix.pch */,
+				2894942550C25AAB845F635A98EA3DF4 /* UDatePicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UDatePicker";
 			sourceTree = "<group>";
 		};
 		96BE962A19DC0FC5ADD06D6DBB4D1875 /* Pods-WINF */ = {
@@ -246,23 +260,74 @@
 			path = "Target Support Files/Pods-WINF";
 			sourceTree = "<group>";
 		};
+		BF3EA0284A69B6069BEA03FE55144F8F /* RevealingSplashView */ = {
+			isa = PBXGroup;
+			children = (
+				B0CA142FDD0039F6E99BE9995F5C00A9 /* Animations.swift */,
+				A8B7B467B9AB1052DE018C9B1A15466E /* RevealingSplashView.h */,
+				9BD1772255D221FA096A3CF072782B4D /* RevealingSplashView.swift */,
+				F3EB79B84E2493BC0B47EC95FE9DC960 /* SplashAnimatable.swift */,
+				84BD726F52D4C7C268C1EBF0957AF84E /* SplashAnimationType.swift */,
+				CC12B2B90A86ED1B12C59F0B026FE8D8 /* Support Files */,
+			);
+			name = RevealingSplashView;
+			path = RevealingSplashView;
+			sourceTree = "<group>";
+		};
+		CC12B2B90A86ED1B12C59F0B026FE8D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				395670A0F07802557A0C2E89580A0C33 /* Info.plist */,
+				560B4C74B32248A62AB19961DD2EE82F /* RevealingSplashView.modulemap */,
+				ED9E0D10F52567E4CF6D851AAF7D9AD4 /* RevealingSplashView.xcconfig */,
+				8C0A4F917DBF83871781657FF48EE773 /* RevealingSplashView-dummy.m */,
+				F1B38C12BAD61AEE8754AF6CA390264A /* RevealingSplashView-prefix.pch */,
+				19E073BA0AE7D7CE3DFA83E21C0555B4 /* RevealingSplashView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RevealingSplashView";
+			sourceTree = "<group>";
+		};
+		E755DC5A1AF46C9F5C636DF9892FAAF8 /* Floaty */ = {
+			isa = PBXGroup;
+			children = (
+				57741CDB633598526C19E5C041AD57CA /* Floaty.swift */,
+				EB740E956D1E9CBE4F730F9B942FF92C /* FloatyDelegate.swift */,
+				E8A051869FEF33505299D7605BFBDD9C /* FloatyItem.swift */,
+				8297525F8D7A05C31782E2B3132FC8B0 /* FloatyManager.swift */,
+				EC4F5E92AF209F4DA8E66F038757E332 /* FloatyViewController.swift */,
+				ED4FB0C2CACB32DBB84E107CCB16A55E /* FloatyWindow.swift */,
+				2B03C8E784C4B306B2108A3C974D433C /* Support Files */,
+			);
+			name = Floaty;
+			path = Floaty;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1CDF6C0F0C33C86156B6FDB07D16869F /* Headers */ = {
+		090F887844824C6D23BBB89C63258037 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				392E9EFC2DFC241B7B01BE1E4B41067E /* Pods-WINF-umbrella.h in Headers */,
+				D951641879246B8B818BAD93DB22848A /* UDatePicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6218BD2760F5413F7CF85E4D5D8723A5 /* Headers */ = {
+		66CC3A1205C38F20BB4A4B1873F6AEBB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C881F248F8D2359F4B314279153161A6 /* RevealingSplashView-umbrella.h in Headers */,
-				BCFD9251A70CE7A29AEF72B8B3282921 /* RevealingSplashView.h in Headers */,
+				4BA553AE4D443E188868147BF9EE0610 /* RevealingSplashView-umbrella.h in Headers */,
+				18FAC351847FB4239FBB3EB781556B9D /* RevealingSplashView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821A3DE9B1B9A69DA104D986D54D1E30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227AF99604136AC7BC1990A323FEF680 /* Pods-WINF-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,23 +342,21 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		17EC4A67AC044BCA64E1B214E57F108A /* Pods-WINF */ = {
+		35CA49A4A94ECDD8E4F6432849E91D72 /* RevealingSplashView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35091D2B6291402F60481B22A7DFA8FC /* Build configuration list for PBXNativeTarget "Pods-WINF" */;
+			buildConfigurationList = 168BB623C3EDCF5E868CFEF5CF5B8E45 /* Build configuration list for PBXNativeTarget "RevealingSplashView" */;
 			buildPhases = (
-				FC3561B034DFEA2727A3C83298E1F0B5 /* Sources */,
-				D00FD60BBC3297A03B910E9079BC0688 /* Frameworks */,
-				1CDF6C0F0C33C86156B6FDB07D16869F /* Headers */,
+				63092083139A90D73F9AA1B73E6739E6 /* Sources */,
+				4F53365659F5EEF8D3BE0AEC9C0F0D5A /* Frameworks */,
+				66CC3A1205C38F20BB4A4B1873F6AEBB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				42295B0E08694DB9104C1E9E61131B84 /* PBXTargetDependency */,
-				FE2F66FB9639DA3FD2AA9932FBC5DD60 /* PBXTargetDependency */,
 			);
-			name = "Pods-WINF";
-			productName = "Pods-WINF";
-			productReference = 9A535A633A4D6C7AC2952E8326651198 /* Pods_WINF.framework */;
+			name = RevealingSplashView;
+			productName = RevealingSplashView;
+			productReference = C109C0039BC0E20BE533D626DF632B02 /* RevealingSplashView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5C123A74CD9D6CDA27160800BA68B01A /* Floaty */ = {
@@ -310,24 +373,44 @@
 			);
 			name = Floaty;
 			productName = Floaty;
-			productReference = 0CB2739397BCA037582C1C7B24A805F4 /* Floaty.framework */;
+			productReference = DA03E44861321218B1044393DD15FA80 /* Floaty.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D702D3CED94B693A247A1979C100AA2C /* RevealingSplashView */ = {
+		E6A20367DAD6654B88D33B6BD8384872 /* Pods-WINF */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A879700D41DAD382363BA15A3C6218C /* Build configuration list for PBXNativeTarget "RevealingSplashView" */;
+			buildConfigurationList = 98965B05E51BA7AB5B481A66514FC622 /* Build configuration list for PBXNativeTarget "Pods-WINF" */;
 			buildPhases = (
-				A111BD7BD9720EEF3A94A29C9287E7DE /* Sources */,
-				CEE8774F3D89D3B2FEB628B60774E158 /* Frameworks */,
-				6218BD2760F5413F7CF85E4D5D8723A5 /* Headers */,
+				B94F5450716A16CFBD85D50A78C153CA /* Sources */,
+				215DCBBBEE5322009F154A0530EAD9FB /* Frameworks */,
+				821A3DE9B1B9A69DA104D986D54D1E30 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A82C1EE236053703861E4AFACB85718A /* PBXTargetDependency */,
+				EDAF2C012A23664E03DA60D75F764F66 /* PBXTargetDependency */,
+				D1248944AA616F54B7B46A511D4BB877 /* PBXTargetDependency */,
+			);
+			name = "Pods-WINF";
+			productName = "Pods-WINF";
+			productReference = EB569E675CCF64CB11C8C43331466253 /* Pods_WINF.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAA22601C03D760892795DA97C04E892 /* UDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09D6BF81B0D56FB2FE620D5BB51C3AC /* Build configuration list for PBXNativeTarget "UDatePicker" */;
+			buildPhases = (
+				ADDD2A2791468289DB045D25380D867E /* Sources */,
+				FFC3BFAEDDEE52F6F86DE9BC09BF99A4 /* Frameworks */,
+				090F887844824C6D23BBB89C63258037 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RevealingSplashView;
-			productName = RevealingSplashView;
-			productReference = E0ED075501899E5F8EA2CF53FDCFB7A4 /* RevealingSplashView.framework */;
+			name = UDatePicker;
+			productName = UDatePicker;
+			productReference = A3A1295410728F653331F72D030FED90 /* UDatePicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -337,15 +420,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0900;
-				TargetAttributes = {
-					5C123A74CD9D6CDA27160800BA68B01A = {
-						LastSwiftMigration = 0900;
-					};
-					D702D3CED94B693A247A1979C100AA2C = {
-						LastSwiftMigration = 0900;
-					};
-				};
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -355,13 +430,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0EA8B63F674C0467CEAEBFBE7971D6A4 /* Products */;
+			productRefGroup = 31816C74EBD0ACCAA93B485C5A6A6E30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5C123A74CD9D6CDA27160800BA68B01A /* Floaty */,
-				17EC4A67AC044BCA64E1B214E57F108A /* Pods-WINF */,
-				D702D3CED94B693A247A1979C100AA2C /* RevealingSplashView */,
+				E6A20367DAD6654B88D33B6BD8384872 /* Pods-WINF */,
+				35CA49A4A94ECDD8E4F6432849E91D72 /* RevealingSplashView */,
+				FAA22601C03D760892795DA97C04E892 /* UDatePicker */,
 			);
 		};
 /* End PBXProject section */
@@ -381,87 +457,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A111BD7BD9720EEF3A94A29C9287E7DE /* Sources */ = {
+		63092083139A90D73F9AA1B73E6739E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3BEC7F8FE9F160B0BB69309D9010F80 /* Animations.swift in Sources */,
-				40CA48F3BCA18A82B8AEAE6374C206B0 /* RevealingSplashView-dummy.m in Sources */,
-				AD28013646EB6E1334949F82611CC63B /* RevealingSplashView.swift in Sources */,
-				41F590B7DFD46B108D95CFE28E25BED4 /* SplashAnimatable.swift in Sources */,
-				FBF06640B768518CE843573BE2051F86 /* SplashAnimationType.swift in Sources */,
+				6FE91A0F156F06F2669F32D966F4F4A2 /* Animations.swift in Sources */,
+				B209E6CEE64964E2265235FA062554F4 /* RevealingSplashView-dummy.m in Sources */,
+				10BF8046B73D6DB0654FA1E9210A8FAE /* RevealingSplashView.swift in Sources */,
+				82F938C1AB1630E976463D6DF8D5EE67 /* SplashAnimatable.swift in Sources */,
+				8156D99FC2C259B53AB07EA612862C5B /* SplashAnimationType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC3561B034DFEA2727A3C83298E1F0B5 /* Sources */ = {
+		ADDD2A2791468289DB045D25380D867E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A108251AE126837E933E24A0F6C10E5A /* Pods-WINF-dummy.m in Sources */,
+				D049785B9BE6831CC665FC1041A163CD /* UDatePicker-dummy.m in Sources */,
+				40D026CB4DE1EE9A86C7B1B87BD6CC0C /* UDatePicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94F5450716A16CFBD85D50A78C153CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1939DBB5FD4740C7BD8A0F3ADBD4370D /* Pods-WINF-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		42295B0E08694DB9104C1E9E61131B84 /* PBXTargetDependency */ = {
+		A82C1EE236053703861E4AFACB85718A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Floaty;
 			target = 5C123A74CD9D6CDA27160800BA68B01A /* Floaty */;
-			targetProxy = D3477C490D4D9C815B42ED2E52D3A837 /* PBXContainerItemProxy */;
+			targetProxy = 3EAACF8C81902551D2AAC8AC8553C387 /* PBXContainerItemProxy */;
 		};
-		FE2F66FB9639DA3FD2AA9932FBC5DD60 /* PBXTargetDependency */ = {
+		D1248944AA616F54B7B46A511D4BB877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UDatePicker;
+			target = FAA22601C03D760892795DA97C04E892 /* UDatePicker */;
+			targetProxy = C4DDC3402A405861FE3AEB064A60CCD9 /* PBXContainerItemProxy */;
+		};
+		EDAF2C012A23664E03DA60D75F764F66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RevealingSplashView;
-			target = D702D3CED94B693A247A1979C100AA2C /* RevealingSplashView */;
-			targetProxy = CCC094000F279D9D24B195FDDE204E04 /* PBXContainerItemProxy */;
+			target = 35CA49A4A94ECDD8E4F6432849E91D72 /* RevealingSplashView */;
+			targetProxy = 4D2107312CAEEDFD1EEC1B989BFA53DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		161ED49E920B24005D08317AD0766C16 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18010D2D000D1C933C001247A671CFCC /* Floaty.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Floaty/Floaty-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Floaty/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Floaty/Floaty.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Floaty;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -469,7 +524,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
@@ -477,17 +532,168 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		170AB5C761177C756E452871F5948FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50CA0BE8D11569152734BEC9EBA0FD26 /* Floaty.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Floaty/Floaty-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Floaty/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Floaty/Floaty.modulemap";
+				PRODUCT_NAME = Floaty;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34C42471B951F568F707B8CBF940CC13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9E0D10F52567E4CF6D851AAF7D9AD4 /* RevealingSplashView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
+				PRODUCT_NAME = RevealingSplashView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C29DBCE921C61C3E9D588EE6F2A786C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50CA0BE8D11569152734BEC9EBA0FD26 /* Floaty.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Floaty/Floaty-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Floaty/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Floaty/Floaty.modulemap";
+				PRODUCT_NAME = Floaty;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -496,219 +702,24 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		39B8C102D0A464D5A905F54DB0DEC727 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26CCA9CD5236D4DBBE615DD1625C1601 /* RevealingSplashView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RevealingSplashView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5985138FAB15F070B451C28E4EB13FD6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18010D2D000D1C933C001247A671CFCC /* Floaty.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Floaty/Floaty-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Floaty/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Floaty/Floaty.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Floaty;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		707B86CFB21B645E37109F39754D4051 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		93E379695E021990E97A53B5BF45589E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83391317358047B547C4C744A75FBA01 /* Pods-WINF.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WINF/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WINF/Pods-WINF.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WINF;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A236201F07FFFCAC7854894E3FF2937D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26CCA9CD5236D4DBBE615DD1625C1601 /* RevealingSplashView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = RevealingSplashView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BF257F46873CD2D9DF5D6BE8B48E5962 /* Release */ = {
+		727AB9730CA3E0D7EC7433102C441F50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 65D0BD2D85BB56149FC143530B1D4DA3 /* Pods-WINF.release.xcconfig */;
 			buildSettings = {
@@ -717,20 +728,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-WINF/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WINF/Pods-WINF.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -739,12 +746,141 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		C47BCDE95AC642BEA6014701C77B0F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF3C190021AB4962BD708B412BED3E0 /* UDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UDatePicker/UDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UDatePicker/UDatePicker.modulemap";
+				PRODUCT_NAME = UDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C65571A034569F0D1126B2F83A602DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9E0D10F52567E4CF6D851AAF7D9AD4 /* RevealingSplashView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
+				PRODUCT_NAME = RevealingSplashView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C671ACCB16A05C7612B4DEF2AC44B50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF3C190021AB4962BD708B412BED3E0 /* UDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UDatePicker/UDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UDatePicker/UDatePicker.modulemap";
+				PRODUCT_NAME = UDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FEA37FC86F4D9DCEF5550EE2BB781A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83391317358047B547C4C744A75FBA01 /* Pods-WINF.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WINF/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WINF/Pods-WINF.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WINF;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -752,8 +888,17 @@
 		11DD83B99F71D3E302573ED38372EA3B /* Build configuration list for PBXNativeTarget "Floaty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				161ED49E920B24005D08317AD0766C16 /* Debug */,
-				5985138FAB15F070B451C28E4EB13FD6 /* Release */,
+				170AB5C761177C756E452871F5948FD9 /* Debug */,
+				4C29DBCE921C61C3E9D588EE6F2A786C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168BB623C3EDCF5E868CFEF5CF5B8E45 /* Build configuration list for PBXNativeTarget "RevealingSplashView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C42471B951F568F707B8CBF940CC13 /* Debug */,
+				C65571A034569F0D1126B2F83A602DD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -761,26 +906,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
-				707B86CFB21B645E37109F39754D4051 /* Release */,
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35091D2B6291402F60481B22A7DFA8FC /* Build configuration list for PBXNativeTarget "Pods-WINF" */ = {
+		98965B05E51BA7AB5B481A66514FC622 /* Build configuration list for PBXNativeTarget "Pods-WINF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93E379695E021990E97A53B5BF45589E /* Debug */,
-				BF257F46873CD2D9DF5D6BE8B48E5962 /* Release */,
+				FEA37FC86F4D9DCEF5550EE2BB781A23 /* Debug */,
+				727AB9730CA3E0D7EC7433102C441F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A879700D41DAD382363BA15A3C6218C /* Build configuration list for PBXNativeTarget "RevealingSplashView" */ = {
+		D09D6BF81B0D56FB2FE620D5BB51C3AC /* Build configuration list for PBXNativeTarget "UDatePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A236201F07FFFCAC7854894E3FF2937D /* Debug */,
-				39B8C102D0A464D5A905F54DB0DEC727 /* Release */,
+				C47BCDE95AC642BEA6014701C77B0F14 /* Debug */,
+				C671ACCB16A05C7612B4DEF2AC44B50F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		51271BCE1F3521F700820723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51271BCD1F3521F700820723 /* AppDelegate.swift */; };
 		51271BD31F3521F700820723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51271BD11F3521F700820723 /* Main.storyboard */; };
-		51271BD81F3521F700820723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51271BD71F3521F700820723 /* Assets.xcassets */; };
 		51271BDB1F3521F700820723 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51271BD91F3521F700820723 /* LaunchScreen.storyboard */; };
 		51271BE51F35223D00820723 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51271BE21F35223D00820723 /* MainVC.swift */; };
 		51271BE61F35223D00820723 /* FridgeItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51271BE31F35223D00820723 /* FridgeItemCell.swift */; };
-		51271BE71F35223D00820723 /* FridgeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51271BE41F35223D00820723 /* FridgeItem.swift */; };
 		51271BEA1F35233200820723 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51271BE81F35233200820723 /* Model.xcdatamodeld */; };
+		514775711FA478900085A50B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 514775701FA46DF50085A50B /* Assets.xcassets */; };
+		5163998F1FAC74B0005939CA /* MainVC extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5163998E1FAC74B0005939CA /* MainVC extension.swift */; };
 		518113101F56396C005D9A31 /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181130F1F56396C005D9A31 /* ItemDetailsVC.swift */; };
 		B8C21B795B137A7656202A4F /* Pods_WINF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23130D96160341DEF0521FC5 /* Pods_WINF.framework */; };
 /* End PBXBuildFile section */
@@ -25,13 +25,13 @@
 		51271BCA1F3521F700820723 /* WINF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WINF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51271BCD1F3521F700820723 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51271BD21F3521F700820723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		51271BD71F3521F700820723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51271BDA1F3521F700820723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51271BDC1F3521F700820723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51271BE21F35223D00820723 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		51271BE31F35223D00820723 /* FridgeItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FridgeItemCell.swift; sourceTree = "<group>"; };
-		51271BE41F35223D00820723 /* FridgeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FridgeItem.swift; sourceTree = "<group>"; };
 		51271BE91F35233200820723 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		514775701FA46DF50085A50B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/vatsalrustagi/iOS Projects/WINF/WINF/Assets.xcassets"; sourceTree = "<absolute>"; };
+		5163998E1FAC74B0005939CA /* MainVC extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC extension.swift"; sourceTree = "<group>"; };
 		5181130F1F56396C005D9A31 /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
 		5C997217E42AEF8EEE3B6DBD /* Pods-WINF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WINF.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WINF/Pods-WINF.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,14 +87,14 @@
 			isa = PBXGroup;
 			children = (
 				51271BE21F35223D00820723 /* MainVC.swift */,
+				5163998E1FAC74B0005939CA /* MainVC extension.swift */,
 				51271BE31F35223D00820723 /* FridgeItemCell.swift */,
-				51271BE41F35223D00820723 /* FridgeItem.swift */,
 				51271BCD1F3521F700820723 /* AppDelegate.swift */,
 				5181130F1F56396C005D9A31 /* ItemDetailsVC.swift */,
 				51271BD11F3521F700820723 /* Main.storyboard */,
-				51271BD71F3521F700820723 /* Assets.xcassets */,
 				51271BD91F3521F700820723 /* LaunchScreen.storyboard */,
 				51271BDC1F3521F700820723 /* Info.plist */,
+				514775701FA46DF50085A50B /* Assets.xcassets */,
 				51271BE81F35233200820723 /* Model.xcdatamodeld */,
 			);
 			path = WINF;
@@ -135,7 +135,7 @@
 				TargetAttributes = {
 					51271BC91F3521F700820723 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 9V3N2WKYT3;
+						DevelopmentTeam = 8G55M7N8N9;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -165,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51271BDB1F3521F700820723 /* LaunchScreen.storyboard in Resources */,
-				51271BD81F3521F700820723 /* Assets.xcassets in Resources */,
+				514775711FA478900085A50B /* Assets.xcassets in Resources */,
 				51271BD31F3521F700820723 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,9 +194,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WINF/Pods-WINF-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Floaty/Floaty.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/UDatePicker/UDatePicker.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Floaty.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UDatePicker.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -209,13 +216,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WINF-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -226,8 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				518113101F56396C005D9A31 /* ItemDetailsVC.swift in Sources */,
+				5163998F1FAC74B0005939CA /* MainVC extension.swift in Sources */,
 				51271BE61F35223D00820723 /* FridgeItemCell.swift in Sources */,
-				51271BE71F35223D00820723 /* FridgeItem.swift in Sources */,
 				51271BEA1F35233200820723 /* Model.xcdatamodeld in Sources */,
 				51271BE51F35223D00820723 /* MainVC.swift in Sources */,
 				51271BCE1F3521F700820723 /* AppDelegate.swift in Sources */,
@@ -284,6 +294,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -303,7 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -341,7 +352,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -354,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -368,11 +380,15 @@
 			baseConfigurationReference = 5C997217E42AEF8EEE3B6DBD /* Pods-WINF.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9V3N2WKYT3;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G55M7N8N9;
 				INFOPLIST_FILE = WINF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vatslife.WINF;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsal.winf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 			};
@@ -383,11 +399,15 @@
 			baseConfigurationReference = 29E240106C5758B3D46E08A5 /* Pods-WINF.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9V3N2WKYT3;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G55M7N8N9;
 				INFOPLIST_FILE = WINF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vatslife.WINF;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsal.winf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 			};

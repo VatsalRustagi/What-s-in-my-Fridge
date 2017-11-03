@@ -10,13 +10,20 @@ import UIKit
 import CoreData
 import RevealingSplashView
 import Floaty
+import UserNotifications
+import UDatePicker
+
 
 class MainVC: UIViewController{
     
     var controller: NSFetchedResultsController<Items>!
+    var datePicker: UDatePicker? = nil
+    var currentDateInTextField: Date? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert,.sound,.badge], completionHandler: {didAllow, error in})
         
         attemptFetch()
         
@@ -32,13 +39,11 @@ class MainVC: UIViewController{
         setupTableViewBG()
         
         optionsButton.addItem("Clear All", icon: #imageLiteral(resourceName: "trash"), handler: {item in
-            print("Clear All handler called")
             self.deleteAllItems()
         })
         
-        optionsButton.addItem("Refresh", icon: #imageLiteral(resourceName: "refresh"), handler: {item in
-            print("Refresh handler called")
-            self.attemptFetch()
+        optionsButton.addItem("Clear Expired", icon: #imageLiteral(resourceName: "broom"), handler: {item in
+            self.deleteExpiredItems()
         })
         
         
@@ -47,13 +52,12 @@ class MainVC: UIViewController{
         self.expireInDays.delegate = self
         self.fridgeItem.delegate = self
         
-        let toolbarDone = UIToolbar.init()
-        toolbarDone.sizeToFit()
-        let barBtnDone = UIBarButtonItem.init(barButtonSystemItem: UIBarButtonSystemItem.done,
-                                              target: self, action: #selector(MainVC.saveItem))
-        
-        toolbarDone.items = [barBtnDone] // You can even add cancel button too
-        expireInDays.inputAccessoryView = toolbarDone
+//        let toolbarDone = UIToolbar.init()
+//        toolbarDone.sizeToFit()
+//        let barBtnDone = UIBarButtonItem.init(barButtonSystemItem: UIBarButtonSystemItem.done,
+//                                              target: self, action: #selector(MainVC.saveItem))
+//        toolbarDone.items = [barBtnDone] // You can even add cancel button too
+//        expireInDays.inputAccessoryView = toolbarDone
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -79,7 +83,7 @@ class MainVC: UIViewController{
     func attemptFetch(){
         let request: NSFetchRequest<Items> = Items.fetchRequest()
         
-        let expirationSort = NSSortDescriptor(key: "expiration", ascending: true)
+        let expirationSort = NSSortDescriptor(key: "date", ascending: false)
         
         request.sortDescriptors = [expirationSort]
         
@@ -98,23 +102,6 @@ class MainVC: UIViewController{
     }
     
     func deleteAllItems(){
-//        let request: NSFetchRequest<Items> = Items.fetchRequest()
-//        
-//        request.returnsObjectsAsFaults = false
-//        
-//        do{
-//            let results = try context.fetch(request)
-//            if results.count > 0{
-//                for result in results as [NSManagedObject]{
-//                    context.delete(result)
-//                }
-//            }
-//        }
-//        catch{
-//            // Process Error
-//        }
-//        
-//        appDelegate.saveContext()
         if let objs = controller.fetchedObjects, objs.count > 0{
             for i in 0..<objs.count{
                 let item = objs[i]
@@ -129,18 +116,19 @@ class MainVC: UIViewController{
         if check(){
             let item = Items(context: context)
             item.name = fridgeItem.text!
-            if let i = Int(expireInDays.text!){
-                item.expiration = Int64(i)
+            if let date = currentDateInTextField{
+                item.date = date
+                let newDate = Date(timeIntervalSinceNow: 0)
+                let expiry = (Int(date.timeIntervalSince(newDate)) / (60*60*24)) + 1
+                item.expiration = Int64(expiry)
+            }else{
+                item.date = Date(timeIntervalSinceNow: 0)
             }
             
             appDelegate.saveContext()
-//            attemptFetch()
-//            tableView.reloadData()
         }
         dismissKeyboard()
     }
-    
-    var items: [FridgeItem] = []
     
     @IBOutlet weak var titleView: UILabel!
     @IBOutlet weak var fridgeItem: UITextField!
@@ -151,6 +139,16 @@ class MainVC: UIViewController{
     
     @IBAction func addItem(_ sender: UIButton) {
         saveItem()
+        createNotification()
+    }
+    
+    func createNotification(){
+        let content = UNMutableNotificationContent()
+        content.title = "Your item has been added to the fridge!"
+        
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        let request = UNNotificationRequest(identifier: "addItem", content: content, trigger: trigger)
+        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
     }
     
     func check() -> Bool{
@@ -162,13 +160,6 @@ class MainVC: UIViewController{
         if !expireInDays.hasText{
             expireInDays.becomeFirstResponder()
             return false
-        }else{
-            
-            if Int(expireInDays.text!) == nil{
-                expireInDays.text = ""
-                expireInDays.becomeFirstResponder()
-                return false
-            }
         }
         
         return true
@@ -176,7 +167,6 @@ class MainVC: UIViewController{
 }
 
 // UITableView Delegate and Datasource
-
 
 extension MainVC: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -268,11 +258,15 @@ extension MainVC: UITextFieldDelegate{
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         if textField.tag == 0{
             expireInDays.becomeFirstResponder()
-        }
-        else{
-            saveItem()
+            showDatePicker()
         }
         return true
+    }
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        if textField.tag != 0{
+            showDatePicker()
+        }
     }
 }
 

@@ -6,6 +6,7 @@ target 'WINF' do
   use_frameworks!
   pod 'RevealingSplashView'
   pod "Floaty", "~> 3.0.0"
+  pod 'UDatePicker'
   # Pods for WINF
 
 end
