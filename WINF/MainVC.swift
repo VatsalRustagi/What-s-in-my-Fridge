@@ -121,10 +121,12 @@ class MainVC: UIViewController{
                 let newDate = Date(timeIntervalSinceNow: 0)
                 let expiry = (Int(date.timeIntervalSince(newDate)) / (60*60*24)) + 1
                 item.expiration = Int64(expiry)
+                if expiry > 0{
+                    createNotification(item: item)
+                }
             }else{
                 item.date = Date(timeIntervalSinceNow: 0)
             }
-            
             appDelegate.saveContext()
         }
         dismissKeyboard()
@@ -139,15 +141,16 @@ class MainVC: UIViewController{
     
     @IBAction func addItem(_ sender: UIButton) {
         saveItem()
-        createNotification()
     }
     
-    func createNotification(){
+    func createNotification(item: Items){
         let content = UNMutableNotificationContent()
-        content.title = "Your item has been added to the fridge!"
-        
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
-        let request = UNNotificationRequest(identifier: "addItem", content: content, trigger: trigger)
+        content.title = "Your \(item.name!) has expired."
+        let newDate = Date(timeIntervalSinceNow: 0)
+        let timeInterval = (item.date!).timeIntervalSince(newDate)
+        print(timeInterval - 86350)
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: timeInterval - 86350, repeats: false)
+        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
         UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
     }
     
