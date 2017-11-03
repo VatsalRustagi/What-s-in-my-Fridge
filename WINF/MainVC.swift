@@ -49,7 +49,6 @@ class MainVC: UIViewController{
         
         optionsButton.openAnimationType = .pop
         
-        self.expireInDays.delegate = self
         self.fridgeItem.delegate = self
         
 //        let toolbarDone = UIToolbar.init()
@@ -128,28 +127,33 @@ class MainVC: UIViewController{
                 item.date = Date(timeIntervalSinceNow: 0)
             }
             appDelegate.saveContext()
+            currentDateInTextField = nil
+            expiryBtn.setTitle("Pick Expiry Date", for: .normal)
         }
         dismissKeyboard()
     }
     
     @IBOutlet weak var titleView: UILabel!
     @IBOutlet weak var fridgeItem: UITextField!
-    @IBOutlet weak var expireInDays: UITextField!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var seperatorView: UIView!
     @IBOutlet weak var optionsButton: Floaty!
+    @IBOutlet weak var expiryBtn: UIButton!
     
     @IBAction func addItem(_ sender: UIButton) {
         saveItem()
     }
     
+    @IBAction func pickExpiryDate(_ sender: UIButton) {
+        showDatePicker()
+    }
+    
     func createNotification(item: Items){
         let content = UNMutableNotificationContent()
-        content.title = "Your \(item.name!) has expired."
+        content.title = "Your \(item.name!.trimmingCharacters(in: .whitespacesAndNewlines)) has expired."
         let newDate = Date(timeIntervalSinceNow: 0)
         let timeInterval = (item.date!).timeIntervalSince(newDate)
-        print(timeInterval - 86350)
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: timeInterval - 86350, repeats: false)
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: timeInterval, repeats: false)
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
         UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
     }
@@ -160,8 +164,7 @@ class MainVC: UIViewController{
             return false
         }
         
-        if !expireInDays.hasText{
-            expireInDays.becomeFirstResponder()
+        if currentDateInTextField == nil{
             return false
         }
         
@@ -260,16 +263,9 @@ extension MainVC: NSFetchedResultsControllerDelegate{
 extension MainVC: UITextFieldDelegate{
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         if textField.tag == 0{
-            expireInDays.becomeFirstResponder()
-            showDatePicker()
+            self.dismissKeyboard()
         }
         return true
-    }
-    
-    func textFieldDidBeginEditing(_ textField: UITextField) {
-        if textField.tag != 0{
-            showDatePicker()
-        }
     }
 }
 

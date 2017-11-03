@@ -126,14 +126,24 @@
                                         <rect key="frame" x="0.0" y="0.0" width="163.5" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Expires in days?" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BZV-VB-nBm">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtd-Cf-MBc">
                                         <rect key="frame" x="179.5" y="0.0" width="163.5" height="30"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" returnKeyType="done"/>
-                                    </textField>
+                                        <color key="backgroundColor" red="0.28710141779999998" green="0.64119052889999995" blue="0.53730875249999999" alpha="0.50355843320000004" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                        <state key="normal" title="Pick Expiry Date">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="pickExpiryDate:" destination="LBf-gH-bft" eventType="touchUpInside" id="4H9-xv-MRZ"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="hwZ-ig-AN9"/>
@@ -252,7 +262,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="expireInDays" destination="BZV-VB-nBm" id="lxD-Zi-U8g"/>
+                        <outlet property="expiryBtn" destination="wtd-Cf-MBc" id="ZfJ-Nj-vY2"/>
                         <outlet property="fridgeItem" destination="a3V-Dz-hma" id="d9G-XF-Ff1"/>
                         <outlet property="optionsButton" destination="kKC-Ek-fGT" id="onM-eR-8tj"/>
                         <outlet property="seperatorView" destination="IsS-Xc-6Gn" id="Som-6o-mfn"/>

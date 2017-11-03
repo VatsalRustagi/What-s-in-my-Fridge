@@ -17,7 +17,8 @@ extension MainVC{
                     self.currentDateInTextField = selectedDate
                     let formatter = DateFormatter()
                     formatter.dateFormat = "MM/dd/yyyy"
-                    self.expireInDays.text = "\(formatter.string(from: selectedDate))"
+                    self.expiryBtn.setTitle("\(formatter.string(from: selectedDate))", for: .normal)
+                    self.dismissKeyboard()
                     self.saveItem()
                 }
             })
