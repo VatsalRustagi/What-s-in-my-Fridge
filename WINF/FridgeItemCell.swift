@@ -30,23 +30,18 @@ class FridgeItemCell: UITableViewCell {
         bgView.layer.shadowOpacity = 0.8
         
         nameLabel.text = item.name
-        
-        if item.expiration <= 0{
-            dateLabel.text = "Expired"
-            bgView.backgroundColor = UIColor.gray
-        }else{
-            dateLabel.text = "\(item.expiration) day" + (item.expiration > 1 ? "s" : "")
+        if let date = item.date{
+            let newDate = Date(timeIntervalSinceNow: 0)
+            let expiry = (Int(date.timeIntervalSince(newDate)) / (60*60*24)) + 1
+            if expiry <= 0{
+                dateLabel.text = "Expired"
+                bgView.backgroundColor = UIColor.gray
+            }else{
+                dateLabel.text = "\(expiry) day" + (expiry > 1 ? "s" : "")
+            }
+            return
         }
-        
-//        if let date = item.date{
-//            let newDate = Date(timeIntervalSinceNow: 0)
-//            let expiry = (Int(date.timeIntervalSince(newDate)) / (60*60*24)) + 1
-//
-//            return
-//        }
-        
-//       dateLabel.text = "no info"
-        
+        dateLabel.text = "No Info"
     }
  
 }

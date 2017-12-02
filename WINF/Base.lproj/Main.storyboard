@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LBf-gH-bft">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LBf-gH-bft">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -39,7 +39,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" pagingEnabled="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZsW-43-OQo">
-                                <rect key="frame" x="0.0" y="251" width="375" height="416"/>
+                                <rect key="frame" x="0.0" y="246" width="375" height="421"/>
                                 <color key="backgroundColor" red="0.63529411759999999" green="0.87058823529999996" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="separatorColor" red="0.63529411759999999" green="0.87058823529999996" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -113,7 +113,7 @@
                                 </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IsS-Xc-6Gn">
-                                <rect key="frame" x="16" y="189" width="343" height="1"/>
+                                <rect key="frame" x="16" y="184" width="343" height="1"/>
                                 <color key="backgroundColor" red="0.28710141779999998" green="0.64119052889999995" blue="0.53730875249999999" alpha="0.50355843320000004" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="kUB-v2-Zpb"/>
@@ -131,8 +131,8 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtd-Cf-MBc">
                                         <rect key="frame" x="179.5" y="0.0" width="163.5" height="30"/>
                                         <color key="backgroundColor" red="0.28710141779999998" green="0.64119052889999995" blue="0.53730875249999999" alpha="0.50355843320000004" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
-                                        <state key="normal" title="Pick Expiry Date">
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                                        <state key="normal" title="PICK EXPIRY DATE">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -150,7 +150,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hb8-bh-Bhh">
-                                <rect key="frame" x="16" y="198" width="343" height="45"/>
+                                <rect key="frame" x="16" y="193" width="343" height="45"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fridge Item" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oou-cH-aIw">
                                         <rect key="frame" x="0.0" y="0.0" width="171" height="45"/>
@@ -185,14 +185,14 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xtZ-RG-dms">
-                                <rect key="frame" x="137" y="138" width="100" height="35"/>
-                                <color key="backgroundColor" red="0.28710141779999998" green="0.64119052889999995" blue="0.53730875249999999" alpha="0.50355843320000004" colorSpace="custom" customColorSpace="displayP3"/>
+                                <rect key="frame" x="137.5" y="138" width="100" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="Wwt-73-bGd"/>
-                                    <constraint firstAttribute="height" constant="35" id="aAX-Uv-2hR"/>
+                                    <constraint firstAttribute="height" constant="30" id="aAX-Uv-2hR"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
-                                <state key="normal" title="Add item">
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                                <state key="normal" title="ADD ITEM">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -273,7 +273,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ank-E7-4MG" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-190" y="152"/>
+            <point key="canvasLocation" x="-191.19999999999999" y="151.47783251231527"/>
         </scene>
         <!--Item DetailsVC-->
         <scene sceneID="FZk-9w-zZs">
@@ -287,53 +287,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="0IH-kG-2X9">
-                                <rect key="frame" x="16" y="158.5" width="343" height="150"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="AKq-Ld-J2I">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fridge Item" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tt-Ib-egj">
-                                                <rect key="frame" x="0.0" y="0.0" width="109.5" height="50"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4V7-O9-MPb">
-                                                <rect key="frame" x="129.5" y="0.0" width="213.5" height="50"/>
-                                                <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u9a-WR-Cme">
-                                        <rect key="frame" x="0.0" y="100" width="343" height="50"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expires in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7G-Ga-xpP">
-                                                <rect key="frame" x="0.0" y="0.0" width="129.5" height="50"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2xo-G8-pxV">
-                                                <rect key="frame" x="129.5" y="0.0" width="213.5" height="50"/>
-                                                <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad"/>
-                                            </textField>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="u9a-WR-Cme" secondAttribute="trailing" id="4Lc-pN-K2a"/>
-                                    <constraint firstItem="AKq-Ld-J2I" firstAttribute="leading" secondItem="0IH-kG-2X9" secondAttribute="leading" id="S7a-Hm-E8G"/>
-                                    <constraint firstItem="u9a-WR-Cme" firstAttribute="leading" secondItem="0IH-kG-2X9" secondAttribute="leading" id="akL-vf-CrW"/>
-                                    <constraint firstAttribute="height" constant="150" id="le4-Pp-hIQ"/>
-                                    <constraint firstAttribute="trailing" secondItem="AKq-Ld-J2I" secondAttribute="trailing" id="pQQ-KQ-gwv"/>
-                                    <constraint firstItem="2xo-G8-pxV" firstAttribute="leading" secondItem="4V7-O9-MPb" secondAttribute="leading" id="wK3-Hn-ig1"/>
-                                </constraints>
-                            </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit Fridge Item" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NPl-kF-Txt">
                                 <rect key="frame" x="0.0" y="20" width="375" height="64"/>
                                 <color key="backgroundColor" red="0.28710141779999998" green="0.64119052889999995" blue="0.53730875249999999" alpha="0.50355843320000004" colorSpace="custom" customColorSpace="displayP3"/>
@@ -354,13 +307,13 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="gfz-Wi-uYH">
-                                <rect key="frame" x="32" y="372.5" width="311" height="50"/>
+                                <rect key="frame" x="24" y="311" width="327" height="45"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUJ-yz-Y6j">
-                                        <rect key="frame" x="0.0" y="0.0" width="143" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="151" height="45"/>
                                         <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
-                                        <state key="normal" title="Delete">
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                        <state key="normal" title="DELETE">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -373,10 +326,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7MN-8O-BJr">
-                                        <rect key="frame" x="168" y="0.0" width="143" height="50"/>
-                                        <color key="backgroundColor" red="0.28710141779999998" green="0.64119052889999995" blue="0.53730875249999999" alpha="0.50355843320000004" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
-                                        <state key="normal" title="Save">
+                                        <rect key="frame" x="176" y="0.0" width="151" height="45"/>
+                                        <color key="backgroundColor" red="0.0" green="0.75084861781944445" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                        <state key="normal" title="SAVE">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -390,29 +343,57 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="HQs-nV-0Nk"/>
+                                    <constraint firstAttribute="height" constant="45" id="E64-PG-S0h"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obv-My-dwc">
+                                <rect key="frame" x="24" y="218" width="327" height="45"/>
+                                <color key="backgroundColor" red="0.28710141779999998" green="0.64119052889999995" blue="0.53730875249999999" alpha="0.50355843320000004" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Dqy-EV-wbn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="PICK A NEW EXPIRY DATE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="newDate:" destination="m2d-FG-VA6" eventType="touchUpInside" id="67t-WC-ITw"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Fridge Item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4V7-O9-MPb">
+                                <rect key="frame" x="24" y="125" width="327" height="45"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.73102587461471558" green="0.88297551870346069" blue="0.85099995136260986" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="0IH-kG-2X9" firstAttribute="centerX" secondItem="rKE-uK-FzK" secondAttribute="centerX" id="195-k4-sDo"/>
+                            <constraint firstItem="gfz-Wi-uYH" firstAttribute="leading" secondItem="rKE-uK-FzK" secondAttribute="leadingMargin" constant="8" id="1k5-F0-Feq"/>
                             <constraint firstAttribute="trailing" secondItem="w67-Qx-8hI" secondAttribute="trailing" id="4HC-ki-Ank"/>
-                            <constraint firstItem="gfz-Wi-uYH" firstAttribute="top" secondItem="0IH-kG-2X9" secondAttribute="bottom" constant="64" id="Dfq-EG-cPb"/>
+                            <constraint firstItem="4V7-O9-MPb" firstAttribute="leading" secondItem="rKE-uK-FzK" secondAttribute="leadingMargin" constant="8" id="BH3-CI-eiF"/>
+                            <constraint firstItem="4V7-O9-MPb" firstAttribute="height" secondItem="obv-My-dwc" secondAttribute="height" id="Hmv-Kn-P7O"/>
                             <constraint firstAttribute="trailing" secondItem="NPl-kF-Txt" secondAttribute="trailing" id="MLB-bu-494"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gfz-Wi-uYH" secondAttribute="trailing" constant="8" id="NSe-kJ-PYp"/>
                             <constraint firstItem="NPl-kF-Txt" firstAttribute="leading" secondItem="rKE-uK-FzK" secondAttribute="leading" id="OiE-GJ-dG2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="gfz-Wi-uYH" secondAttribute="trailing" constant="16" id="XQY-jc-MZ0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4V7-O9-MPb" secondAttribute="trailing" constant="8" id="WSz-J5-V6t"/>
                             <constraint firstItem="NPl-kF-Txt" firstAttribute="top" secondItem="NXX-Mh-8VA" secondAttribute="bottom" id="YPK-2H-UKT"/>
-                            <constraint firstAttribute="trailing" secondItem="0IH-kG-2X9" secondAttribute="trailing" constant="16" id="ZTA-o7-sCU"/>
+                            <constraint firstItem="obv-My-dwc" firstAttribute="top" secondItem="4V7-O9-MPb" secondAttribute="bottom" constant="48" id="ZLb-U1-fL5"/>
+                            <constraint firstItem="obv-My-dwc" firstAttribute="leading" secondItem="rKE-uK-FzK" secondAttribute="leadingMargin" constant="8" id="euN-JI-Bzn"/>
                             <constraint firstItem="w67-Qx-8hI" firstAttribute="leading" secondItem="rKE-uK-FzK" secondAttribute="leading" id="iua-40-ysc"/>
-                            <constraint firstItem="0IH-kG-2X9" firstAttribute="centerY" secondItem="rKE-uK-FzK" secondAttribute="centerY" constant="-100" id="jWW-vg-TkL"/>
-                            <constraint firstItem="gfz-Wi-uYH" firstAttribute="leading" secondItem="rKE-uK-FzK" secondAttribute="leadingMargin" constant="16" id="lJ3-yc-Dgz"/>
+                            <constraint firstItem="gfz-Wi-uYH" firstAttribute="top" secondItem="obv-My-dwc" secondAttribute="bottom" constant="48" id="lzj-Rd-yxE"/>
+                            <constraint firstItem="gfz-Wi-uYH" firstAttribute="centerY" secondItem="rKE-uK-FzK" secondAttribute="centerY" id="pl6-0X-XZs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="obv-My-dwc" secondAttribute="trailing" constant="8" id="qnV-Eh-Z47"/>
                             <constraint firstItem="w67-Qx-8hI" firstAttribute="top" secondItem="rKE-uK-FzK" secondAttribute="top" id="rSM-s1-PB2"/>
-                            <constraint firstItem="0IH-kG-2X9" firstAttribute="leading" secondItem="rKE-uK-FzK" secondAttribute="leading" constant="16" id="xa6-yB-0m8"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="expiresIn" destination="2xo-G8-pxV" id="Umq-A2-dfJ"/>
+                        <outlet property="expiryBtn" destination="obv-My-dwc" id="bb7-OY-J0w"/>
                         <outlet property="fridgeItem" destination="4V7-O9-MPb" id="Mkb-va-HZF"/>
                     </connections>
                 </viewController>

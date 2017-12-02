@@ -50,13 +50,6 @@ class MainVC: UIViewController{
         optionsButton.openAnimationType = .pop
         
         self.fridgeItem.delegate = self
-        
-//        let toolbarDone = UIToolbar.init()
-//        toolbarDone.sizeToFit()
-//        let barBtnDone = UIBarButtonItem.init(barButtonSystemItem: UIBarButtonSystemItem.done,
-//                                              target: self, action: #selector(MainVC.saveItem))
-//        toolbarDone.items = [barBtnDone] // You can even add cancel button too
-//        expireInDays.inputAccessoryView = toolbarDone
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -93,6 +86,7 @@ class MainVC: UIViewController{
         self.controller = controller
         
         do {
+//            self.updateExpiryDates()
             try controller.performFetch()
         }catch{
             let error = error as NSError
@@ -107,7 +101,6 @@ class MainVC: UIViewController{
                 context.delete(item)
             }
         }
-        
         appDelegate.saveContext()
     }
     
@@ -123,7 +116,8 @@ class MainVC: UIViewController{
                 if expiry > 0{
                     createNotification(item: item)
                 }
-            }else{
+            }
+            else{
                 item.date = Date(timeIntervalSinceNow: 0)
             }
             appDelegate.saveContext()
@@ -131,6 +125,19 @@ class MainVC: UIViewController{
             expiryBtn.setTitle("Pick Expiry Date", for: .normal)
         }
         dismissKeyboard()
+    }
+    
+    func check() -> Bool{
+        if !fridgeItem.hasText{
+            fridgeItem.becomeFirstResponder()
+            return false
+        }
+        
+        if currentDateInTextField == nil{
+            return false
+        }
+        
+        return true
     }
     
     @IBOutlet weak var titleView: UILabel!
@@ -146,29 +153,6 @@ class MainVC: UIViewController{
     
     @IBAction func pickExpiryDate(_ sender: UIButton) {
         showDatePicker()
-    }
-    
-    func createNotification(item: Items){
-        let content = UNMutableNotificationContent()
-        content.title = "Your \(item.name!.trimmingCharacters(in: .whitespacesAndNewlines)) has expired."
-        let newDate = Date(timeIntervalSinceNow: 0)
-        let timeInterval = (item.date!).timeIntervalSince(newDate)
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: timeInterval, repeats: false)
-        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
-        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
-    }
-    
-    func check() -> Bool{
-        if !fridgeItem.hasText{
-            fridgeItem.becomeFirstResponder()
-            return false
-        }
-        
-        if currentDateInTextField == nil{
-            return false
-        }
-        
-        return true
     }
 }
 
@@ -266,6 +250,28 @@ extension MainVC: UITextFieldDelegate{
             self.dismissKeyboard()
         }
         return true
+    }
+}
+
+extension MainVC{
+    func createNotification(item: Items){
+        let content = UNMutableNotificationContent()
+        content.title = "Your \(item.name!.trimmingCharacters(in: .whitespacesAndNewlines)) has expired."
+        
+        let newDate = Date(timeIntervalSinceNow: 0)
+        let timeInterval = (item.date!).timeIntervalSince(newDate)
+        var trigger: UNTimeIntervalNotificationTrigger
+        
+        if timeInterval <= 0{
+            let currentHour = Calendar.current.component(.hour, from: Date())
+            trigger = UNTimeIntervalNotificationTrigger(timeInterval: (TimeInterval((24.5 - Double(currentHour))*3600)), repeats: false)
+        }
+        else{
+            trigger = UNTimeIntervalNotificationTrigger(timeInterval: timeInterval, repeats: false)
+        }
+        
+        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
     }
 }
 

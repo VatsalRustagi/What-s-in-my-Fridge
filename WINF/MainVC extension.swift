@@ -39,13 +39,37 @@ extension MainVC{
         if let objs = controller.fetchedObjects, objs.count > 0{
             for i in 0..<objs.count{
                 let item = objs[i]
-                if item.expiration <= 0{
-                    context.delete(item)
+                if let date = item.date{
+                    let newDate = Date(timeIntervalSinceNow: 0)
+                    let expiry = (Int(date.timeIntervalSince(newDate)) / (60*60*24)) + 1
+                    if expiry <= 0{
+                        context.delete(item)
+                    }
                 }
             }
         }
-        
         appDelegate.saveContext()
     }
+    
+//    func updateExpiryDates(){
+//        print("called")
+//        if let objs = controller.fetchedObjects, objs.count > 0{
+//            print("Caalebbb")
+//            for i in 0..<objs.count{
+//                let item = objs[i]
+//                print("Caaled")
+//                if let date = item.date{
+//                    print("here")
+//                    let newDate = Date(timeIntervalSinceNow: 0)
+//                    let expiry = (Int(date.timeIntervalSince(newDate)) / (60*60*24)) + 1
+//                    print("Expiry before \(item.expiration) and expiry after \(expiry)")
+//                    if expiry < item.expiration && expiry >= 0{
+//                        item.expiration = Int64(expiry)
+//                    }
+//                }
+//            }
+//        }
+//        appDelegate.saveContext()
+//    }
     
 }
