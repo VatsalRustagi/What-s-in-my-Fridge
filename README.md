@@ -3,7 +3,7 @@
   What's in my Fridge
 </h1>
 
-<p align="center"><img  src = "https://user-images.githubusercontent.com/26324291/33928702-afdf6920-df9b-11e7-8163-7fa6c7203afc.png" href="https://itunes.apple.com/us/app/whats-in-my-fridge/id1302712808?mt=8" width = "200"></p>
+<p align="center"><a href="https://itunes.apple.com/us/app/whats-in-my-fridge/id1302712808?mt=8"><img  src = "https://user-images.githubusercontent.com/26324291/33928702-afdf6920-df9b-11e7-8163-7fa6c7203afc.png" width = "200"></a></p>
 
 <h2>An iOS app to take note and keep track of food items in the fridge and in how many days it expires.</h2>
 
