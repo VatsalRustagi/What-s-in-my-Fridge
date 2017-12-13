@@ -1,9 +1,9 @@
 <h1 align="center">
   <img src = "https://user-images.githubusercontent.com/26324291/33928808-0e508cd2-df9c-11e7-9766-ffb4895030cb.png" width = "32">
   What's in my Fridge
-  <img  src = "https://user-images.githubusercontent.com/26324291/33928702-afdf6920-df9b-11e7-8163-7fa6c7203afc.png" href="https://itunes.apple.com/us/app/whats-in-my-fridge/id1302712808?mt=8" width = "80">
 </h1>
 
+<p align="center"><img  src = "https://user-images.githubusercontent.com/26324291/33928702-afdf6920-df9b-11e7-8163-7fa6c7203afc.png" href="https://itunes.apple.com/us/app/whats-in-my-fridge/id1302712808?mt=8" width = "200"></p>
 
 <h2>An iOS app to take note and keep track of food items in the fridge and in how many days it expires.</h2>
 
