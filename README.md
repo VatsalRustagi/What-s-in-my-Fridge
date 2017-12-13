@@ -1,5 +1,8 @@
-<h1 align="center">What's in my Fridge</h1>
-## An iOS app to take note and keep track of food items in the fridge and in how many days it expires.
+<h1 align="center">
+  What's in my Fridge
+  <img src = "" href="https://itunes.apple.com/us/app/whats-in-my-fridge/id1302712808?mt=8">
+</h1>
+<h2>An iOS app to take note and keep track of food items in the fridge and in how many days it expires.</h2>
 
 > Inspiration: I could not keep track of the food in my fridge when I get too busy with work. This results in the food items going bad in the fridge. Therefore to solve my problem I made this app to keep track of these food items.
 
