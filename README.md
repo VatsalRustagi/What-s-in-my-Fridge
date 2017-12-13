@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src = "https://user-images.githubusercontent.com/26324291/33928808-0e508cd2-df9c-11e7-9766-ffb4895030cb.png" width = "512"
+  <img src = "https://user-images.githubusercontent.com/26324291/33928808-0e508cd2-df9c-11e7-9766-ffb4895030cb.png" width = "128">
   What's in my Fridge
   <img src = "https://user-images.githubusercontent.com/26324291/33928702-afdf6920-df9b-11e7-8163-7fa6c7203afc.png" href="https://itunes.apple.com/us/app/whats-in-my-fridge/id1302712808?mt=8" width = "400">
 </h1>
