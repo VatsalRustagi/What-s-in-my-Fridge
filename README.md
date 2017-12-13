@@ -1,6 +1,6 @@
 <h1 align="center">
   What's in my Fridge
-  <img src = "" href="https://itunes.apple.com/us/app/whats-in-my-fridge/id1302712808?mt=8">
+  <img src = "![availableonappstore](https://user-images.githubusercontent.com/26324291/33928702-afdf6920-df9b-11e7-8163-7fa6c7203afc.png)" href="https://itunes.apple.com/us/app/whats-in-my-fridge/id1302712808?mt=8">
 </h1>
 <h2>An iOS app to take note and keep track of food items in the fridge and in how many days it expires.</h2>
 
