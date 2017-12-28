@@ -102,6 +102,7 @@ class MainVC: UIViewController{
             }
         }
         appDelegate.saveContext()
+        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
     }
     
     @objc func saveItem(){
@@ -270,7 +271,12 @@ extension MainVC{
             trigger = UNTimeIntervalNotificationTrigger(timeInterval: timeInterval, repeats: false)
         }
         
-        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+        
+        let notificationUUID = UUID().uuidString
+        item.id = notificationUUID
+        appDelegate.saveContext()
+        
+        let request = UNNotificationRequest(identifier: notificationUUID, content: content, trigger: trigger)
         UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
     }
 }

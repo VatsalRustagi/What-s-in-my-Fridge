@@ -8,6 +8,7 @@
 
 import UIKit
 import UDatePicker
+import UserNotifications
 
 class ItemDetailsVC: UIViewController {
 
@@ -42,9 +43,15 @@ class ItemDetailsVC: UIViewController {
     
     @IBAction func deletePressed(_ sender: UIButton) {
         if let item = itemToEdit{
+            
+            if let notificationID = item.id{
+                UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [notificationID])
+            }
+            
             context.delete(item)
             appDelegate.saveContext()
         }
+        
         dismiss(animated: true, completion: nil)
     }
     
