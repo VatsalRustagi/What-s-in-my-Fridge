@@ -24,12 +24,20 @@ class FridgeItemCell: UITableViewCell {
         bgView.layer.borderColor = borderColor.cgColor
         bgView.layer.borderWidth = 2.0
         bgView.layer.cornerRadius = 3.0
-        bgView.layer.shadowOffset = CGSize(width: 0.0, height: 1.0)
-        bgView.layer.shadowColor = UIColor.black.withAlphaComponent(0.5).cgColor
-        bgView.layer.shadowRadius = 1.0
-        bgView.layer.shadowOpacity = 0.8
+        bgView.layer.shadowOffset = CGSize(width: 0.0, height: 2.0)
+        bgView.layer.shadowColor = bgView.backgroundColor?.darker(by: 15)?.cgColor
+        bgView.layer.shadowRadius = 1.5
+        bgView.layer.shadowOpacity = 1.0
         
-        nameLabel.text = item.name
+        var s = ":\(item.name!.lowercased()):"
+        
+        if !s.elementsEqual(s.emojiUnescapedString){
+            s = s.emojiUnescapedString
+        }else{
+            s = "🍽"
+        }
+        
+        nameLabel.text = item.name! + " \(s)"
         if let date = item.date{
             let newDate = Date(timeIntervalSinceNow: 0)
             let expiry = (Int(date.timeIntervalSince(newDate)) / (60*60*24)) + 1
@@ -37,7 +45,7 @@ class FridgeItemCell: UITableViewCell {
                 dateLabel.text = "Expired"
                 bgView.backgroundColor = UIColor.gray
             }else{
-                dateLabel.text = "\(expiry) day" + (expiry > 1 ? "s" : "")
+                dateLabel.text = "Expires in "+"\(expiry) day" + (expiry > 1 ? "s" : "")
             }
             return
         }

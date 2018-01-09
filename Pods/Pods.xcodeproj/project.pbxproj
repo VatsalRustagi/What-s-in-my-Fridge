@@ -7,122 +7,152 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A113A2FC5F91269AB55DF9FA683015F /* Floaty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57741CDB633598526C19E5C041AD57CA /* Floaty.swift */; };
-		10BF8046B73D6DB0654FA1E9210A8FAE /* RevealingSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD1772255D221FA096A3CF072782B4D /* RevealingSplashView.swift */; };
-		18FAC351847FB4239FBB3EB781556B9D /* RevealingSplashView.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B7B467B9AB1052DE018C9B1A15466E /* RevealingSplashView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1939DBB5FD4740C7BD8A0F3ADBD4370D /* Pods-WINF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE613265472F7459DD1B6DABB96456 /* Pods-WINF-dummy.m */; };
-		1982E7ED9231E948A558799362FEA8B3 /* Floaty-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F81E23D3671FD7B56A870F5B6831B /* Floaty-dummy.m */; };
-		227AF99604136AC7BC1990A323FEF680 /* Pods-WINF-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D85BCD1CD94D3F05F9F480B0E49F18E4 /* Pods-WINF-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A113A2FC5F91269AB55DF9FA683015F /* Floaty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A9C980D7B40FA3E043029B1C46744 /* Floaty.swift */; };
+		0F6F5A9F30CA8CDD55A4B53F2B3E4A19 /* RevealingSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079CA0EC8B2B9C56087C21D6EB76D35 /* RevealingSplashView.swift */; };
+		1982E7ED9231E948A558799362FEA8B3 /* Floaty-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE4E69FA39E3A6762C65FA90B6D46E2 /* Floaty-dummy.m */; };
+		2EB08A39E2313AE5DB808CB92F655F2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		2F30735E6BB3BB6DD455904BE0452769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		31DEB9C293D974C0014F52E7853C3E0B /* FloatyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A051869FEF33505299D7605BFBDD9C /* FloatyItem.swift */; };
-		40D026CB4DE1EE9A86C7B1B87BD6CC0C /* UDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E13D993B2CEE64458FE6B66FE42ACF /* UDatePicker.swift */; };
-		4BA553AE4D443E188868147BF9EE0610 /* RevealingSplashView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E073BA0AE7D7CE3DFA83E21C0555B4 /* RevealingSplashView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		530356FC11C4F4A1F641A30F65C5684F /* FloatyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4FB0C2CACB32DBB84E107CCB16A55E /* FloatyWindow.swift */; };
-		6FE91A0F156F06F2669F32D966F4F4A2 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CA142FDD0039F6E99BE9995F5C00A9 /* Animations.swift */; };
+		31DEB9C293D974C0014F52E7853C3E0B /* FloatyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B4A84E3B4343278EC6773D347E1A0 /* FloatyItem.swift */; };
+		3ABEC5E876541EEC446DEA827F30FD77 /* RevealingSplashView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5F11A36C0045A65C37CE9CEB406384 /* RevealingSplashView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		530356FC11C4F4A1F641A30F65C5684F /* FloatyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE49FF0FB0A1F95BCF8E3EB91FA39F4 /* FloatyWindow.swift */; };
+		56500E03D26C02FBDC5435B5AFBFF8E3 /* UDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81122A958BE934BA474A290109583BD5 /* UDatePicker.swift */; };
+		6C04717F50EA094937D428A9D70F01E6 /* SplashAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4ACB3653F96A0149E982BFBD66EBD2 /* SplashAnimatable.swift */; };
+		6D36908235570054A6A8FC25A2B0F591 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		705437E472C3BAC7DC992D200446B855 /* String+Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403AFE960A8C195AF274F8E7237950A /* String+Emoji.swift */; };
 		7060C75B128119AE663619DCED898CF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		7067387FF3974A5BA87F204F718C33F5 /* Floaty-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C4D7CB4579F881EE5450F8A193E278 /* Floaty-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8156D99FC2C259B53AB07EA612862C5B /* SplashAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD726F52D4C7C268C1EBF0957AF84E /* SplashAnimationType.swift */; };
-		82F938C1AB1630E976463D6DF8D5EE67 /* SplashAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB79B84E2493BC0B47EC95FE9DC960 /* SplashAnimatable.swift */; };
-		8BDAE9B31F05CCD1DFBBDD4035F6EB6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		8E96697B51D3FD3DB5EB1BE3EF02B411 /* FloatyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297525F8D7A05C31782E2B3132FC8B0 /* FloatyManager.swift */; };
-		9054A1CA64F47D0BEE3744D146CD26A2 /* FloatyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB740E956D1E9CBE4F730F9B942FF92C /* FloatyDelegate.swift */; };
-		925E9DF5FBC671864CBAAA392A6028EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		A5D1CEB8B73130A7101F1EE1A5867683 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		A90A11CE4B0842BAFB9CC3DAF12A8F25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		B209E6CEE64964E2265235FA062554F4 /* RevealingSplashView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0A4F917DBF83871781657FF48EE773 /* RevealingSplashView-dummy.m */; };
-		D049785B9BE6831CC665FC1041A163CD /* UDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 788162B818DC792ADA77B0268D0494CF /* UDatePicker-dummy.m */; };
-		D951641879246B8B818BAD93DB22848A /* UDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2894942550C25AAB845F635A98EA3DF4 /* UDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5B4C3EE44C285ACF24E077895435175 /* FloatyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F5E92AF209F4DA8E66F038757E332 /* FloatyViewController.swift */; };
+		7067387FF3974A5BA87F204F718C33F5 /* Floaty-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C7E7A62D8F945E220506EB8DD553F2 /* Floaty-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89178000FCB1A7D35F5F66AC2495E1C6 /* Pods-WINF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE613265472F7459DD1B6DABB96456 /* Pods-WINF-dummy.m */; };
+		8E96697B51D3FD3DB5EB1BE3EF02B411 /* FloatyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1ED948B2891CD1A2E7C4A09B2468D7 /* FloatyManager.swift */; };
+		9054A1CA64F47D0BEE3744D146CD26A2 /* FloatyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E1203B93A099647E645FD6E4310866 /* FloatyDelegate.swift */; };
+		91326CBD2B65FADDBE34CA5BA63DB9E4 /* UDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31458CA06ED3D6DBFFB81CE21B257F99 /* UDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9343B2D1692B08BB08D345265E25EB13 /* SplashAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639CA0D20A6881311EF5CF2F743744D7 /* SplashAnimationType.swift */; };
+		98C506B7FCF7566CCE60E8C6988CDF2E /* RevealingSplashView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A18BFB9A026B01C3DC701005EB1F08D /* RevealingSplashView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4273F193B257309DD2C7942A7C6FD4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		AE623EE62083AAABAD2B33A9298C3F5B /* Emoji-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C83D63C605A4E952D7773F343B078A /* Emoji-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2DDBB85073953CF768AFF44741FEE2F /* UDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B25919FD940BD188244C7A9AA6AE1BA0 /* UDatePicker-dummy.m */; };
+		DA24DE0D8B858C83ADB23912E80FFE8E /* Pods-WINF-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D85BCD1CD94D3F05F9F480B0E49F18E4 /* Pods-WINF-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC03A2CB6E2989ABBAF94A763969D797 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFDDF5C07D15306B4BB063830ED7C08 /* Emoji.swift */; };
+		E50EA65C674774001D897A08D00D27D4 /* Emoji-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C40EB8184637D3382C264EC5DE0D435 /* Emoji-swift-dummy.m */; };
+		EFF8E98987F57AFE9A5C69BCD97B594F /* RevealingSplashView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF51F7BB386CEA469B2BBA362CC60FA /* RevealingSplashView-dummy.m */; };
+		F5B4C3EE44C285ACF24E077895435175 /* FloatyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203DB95E04B8F05C70D7436584E847CD /* FloatyViewController.swift */; };
+		F7B515AEC71CDC4FE7266C1285DA810B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		FB66EE71719A9E86EA1637C357B30575 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E109849AABDCFBBDA8C3D3EA7B75E224 /* Animations.swift */; };
+		FFC2A8F4BC644C610F3EFC52320FAC9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3EAACF8C81902551D2AAC8AC8553C387 /* PBXContainerItemProxy */ = {
+		04F4374B286C39F187F6EDE48735163D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E37CDDF5040C455E785F77D3177DE86;
+			remoteInfo = RevealingSplashView;
+		};
+		9C6278AFA9DAE7A8781A5AF96032F4AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A110C19F74AAA2B8904BE7913A0BC4D9;
+			remoteInfo = "Emoji-swift";
+		};
+		DA838394A7E98AEDBE8981FB9CD50817 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307523A8BC1383BC2F02E2A2CDBFB95F;
+			remoteInfo = UDatePicker;
+		};
+		F54D74D975B2B5B243DE5F46A3598728 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5C123A74CD9D6CDA27160800BA68B01A;
 			remoteInfo = Floaty;
 		};
-		4D2107312CAEEDFD1EEC1B989BFA53DB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 35CA49A4A94ECDD8E4F6432849E91D72;
-			remoteInfo = RevealingSplashView;
-		};
-		C4DDC3402A405861FE3AEB064A60CCD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAA22601C03D760892795DA97C04E892;
-			remoteInfo = UDatePicker;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15EEF2B962BC6DD1C8653485277EC530 /* Floaty-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Floaty-prefix.pch"; sourceTree = "<group>"; };
-		19E073BA0AE7D7CE3DFA83E21C0555B4 /* RevealingSplashView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-umbrella.h"; sourceTree = "<group>"; };
-		2894942550C25AAB845F635A98EA3DF4 /* UDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UDatePicker-umbrella.h"; sourceTree = "<group>"; };
+		0C28799D38E12C74B0FA6C21AEB6A898 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A18BFB9A026B01C3DC701005EB1F08D /* RevealingSplashView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevealingSplashView.h; path = RevealingSplashView/RevealingSplashView.h; sourceTree = "<group>"; };
+		203DB95E04B8F05C70D7436584E847CD /* FloatyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyViewController.swift; path = Sources/FloatyViewController.swift; sourceTree = "<group>"; };
 		2B349D1060583B51A477DC64B59EFD2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		395670A0F07802557A0C2E89580A0C33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50CA0BE8D11569152734BEC9EBA0FD26 /* Floaty.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Floaty.xcconfig; sourceTree = "<group>"; };
-		50E13D993B2CEE64458FE6B66FE42ACF /* UDatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UDatePicker.swift; sourceTree = "<group>"; };
-		560B4C74B32248A62AB19961DD2EE82F /* RevealingSplashView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RevealingSplashView.modulemap; sourceTree = "<group>"; };
-		57741CDB633598526C19E5C041AD57CA /* Floaty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Floaty.swift; path = Sources/Floaty.swift; sourceTree = "<group>"; };
-		5AF3C190021AB4962BD708B412BED3E0 /* UDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UDatePicker.xcconfig; sourceTree = "<group>"; };
-		5D5C5889479FCD8527FD80E16CD47EEE /* Floaty.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Floaty.modulemap; sourceTree = "<group>"; };
-		60AF3DB03FC409BAC9CC0060D483000C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB4E3D144ADC8DA8D3FE36776D470F8 /* UDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UDatePicker.xcconfig; sourceTree = "<group>"; };
+		2F76DA014BE69ED8E61067FBCE051372 /* Floaty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Floaty.framework; path = Floaty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31458CA06ED3D6DBFFB81CE21B257F99 /* UDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UDatePicker-umbrella.h"; sourceTree = "<group>"; };
+		3681199575F564A2E25EAE2F4E7321E0 /* RevealingSplashView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RevealingSplashView.modulemap; sourceTree = "<group>"; };
+		4A5F11A36C0045A65C37CE9CEB406384 /* RevealingSplashView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-umbrella.h"; sourceTree = "<group>"; };
+		4F6B371823E07D1AE428CD69DF148307 /* RevealingSplashView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-prefix.pch"; sourceTree = "<group>"; };
+		50CCA6EA7E7AC90966631DAEA59D1BA1 /* UDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UDatePicker.framework; path = UDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56BC7DE1C649268A231F1292A3FC9671 /* UDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		639CA0D20A6881311EF5CF2F743744D7 /* SplashAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimationType.swift; path = RevealingSplashView/SplashAnimationType.swift; sourceTree = "<group>"; };
 		65D0BD2D85BB56149FC143530B1D4DA3 /* Pods-WINF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WINF.release.xcconfig"; sourceTree = "<group>"; };
-		6B7F81E23D3671FD7B56A870F5B6831B /* Floaty-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Floaty-dummy.m"; sourceTree = "<group>"; };
+		66354085EB47A16DC7D10CBEA8B7976C /* Floaty.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Floaty.xcconfig; sourceTree = "<group>"; };
+		6A36CBB108934FAFB7D3BA00C2B42543 /* UDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UDatePicker.modulemap; sourceTree = "<group>"; };
 		6D4CF64FE80282EAA53569EE4CE5E362 /* Pods-WINF-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WINF-resources.sh"; sourceTree = "<group>"; };
+		71E1203B93A099647E645FD6E4310866 /* FloatyDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyDelegate.swift; path = Sources/FloatyDelegate.swift; sourceTree = "<group>"; };
+		736B4A84E3B4343278EC6773D347E1A0 /* FloatyItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyItem.swift; path = Sources/FloatyItem.swift; sourceTree = "<group>"; };
 		75E01ED58FD42A85D21EE9CE15FFB5B7 /* Pods-WINF.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WINF.modulemap"; sourceTree = "<group>"; };
-		788162B818DC792ADA77B0268D0494CF /* UDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UDatePicker-dummy.m"; sourceTree = "<group>"; };
-		8297525F8D7A05C31782E2B3132FC8B0 /* FloatyManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyManager.swift; path = Sources/FloatyManager.swift; sourceTree = "<group>"; };
+		774E2E39D74117B6E2CADBD5D46FFBFE /* Floaty-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Floaty-prefix.pch"; sourceTree = "<group>"; };
+		7B1ED948B2891CD1A2E7C4A09B2468D7 /* FloatyManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyManager.swift; path = Sources/FloatyManager.swift; sourceTree = "<group>"; };
+		8079CA0EC8B2B9C56087C21D6EB76D35 /* RevealingSplashView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RevealingSplashView.swift; path = RevealingSplashView/RevealingSplashView.swift; sourceTree = "<group>"; };
+		81122A958BE934BA474A290109583BD5 /* UDatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UDatePicker.swift; sourceTree = "<group>"; };
 		83391317358047B547C4C744A75FBA01 /* Pods-WINF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WINF.debug.xcconfig"; sourceTree = "<group>"; };
-		84BD726F52D4C7C268C1EBF0957AF84E /* SplashAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimationType.swift; path = RevealingSplashView/SplashAnimationType.swift; sourceTree = "<group>"; };
 		86A33CE122DA13A42DF9D99F0063F799 /* Pods-WINF-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WINF-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A8F2656B0FEFFA2A5BE52EDE6AE34E9 /* Pods_WINF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WINF.framework; path = "Pods-WINF.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFE613265472F7459DD1B6DABB96456 /* Pods-WINF-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WINF-dummy.m"; sourceTree = "<group>"; };
-		8C0A4F917DBF83871781657FF48EE773 /* RevealingSplashView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RevealingSplashView-dummy.m"; sourceTree = "<group>"; };
+		8C40EB8184637D3382C264EC5DE0D435 /* Emoji-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Emoji-swift-dummy.m"; sourceTree = "<group>"; };
+		8FFDDF5C07D15306B4BB063830ED7C08 /* Emoji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Emoji.swift; path = Sources/Emoji.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BD1772255D221FA096A3CF072782B4D /* RevealingSplashView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RevealingSplashView.swift; path = RevealingSplashView/RevealingSplashView.swift; sourceTree = "<group>"; };
-		A3A1295410728F653331F72D030FED90 /* UDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UDatePicker.framework; path = UDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8B7B467B9AB1052DE018C9B1A15466E /* RevealingSplashView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevealingSplashView.h; path = RevealingSplashView/RevealingSplashView.h; sourceTree = "<group>"; };
+		97C7E7A62D8F945E220506EB8DD553F2 /* Floaty-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Floaty-umbrella.h"; sourceTree = "<group>"; };
+		9C8C598CD9F6C682E47333630597ED0D /* RevealingSplashView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevealingSplashView.xcconfig; sourceTree = "<group>"; };
+		9CE49FF0FB0A1F95BCF8E3EB91FA39F4 /* FloatyWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyWindow.swift; path = Sources/FloatyWindow.swift; sourceTree = "<group>"; };
+		AA4ACB3653F96A0149E982BFBD66EBD2 /* SplashAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimatable.swift; path = RevealingSplashView/SplashAnimatable.swift; sourceTree = "<group>"; };
+		AC2C2BD90591DE39CE5CB505882C6A98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACB53A7337D37951ACA6FF73A6F83CC5 /* Pods-WINF-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WINF-frameworks.sh"; sourceTree = "<group>"; };
-		B0CA142FDD0039F6E99BE9995F5C00A9 /* Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animations.swift; path = RevealingSplashView/Animations.swift; sourceTree = "<group>"; };
+		AEF51F7BB386CEA469B2BBA362CC60FA /* RevealingSplashView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RevealingSplashView-dummy.m"; sourceTree = "<group>"; };
+		B25919FD940BD188244C7A9AA6AE1BA0 /* UDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UDatePicker-dummy.m"; sourceTree = "<group>"; };
 		B2D58CFD7AB68E76906A3E35FC8AAE65 /* Pods-WINF-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WINF-acknowledgements.plist"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BDE377816472CC2894744D8E4A79E232 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C109C0039BC0E20BE533D626DF632B02 /* RevealingSplashView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RevealingSplashView.framework; path = RevealingSplashView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1171878C3384A12DB8C326CA7D4225E /* UDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UDatePicker-prefix.pch"; sourceTree = "<group>"; };
-		D2C4D7CB4579F881EE5450F8A193E278 /* Floaty-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Floaty-umbrella.h"; sourceTree = "<group>"; };
+		B7A66AFD233C1BAC28918429883DF8DA /* Emoji-swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Emoji-swift.xcconfig"; sourceTree = "<group>"; };
+		BFE4E69FA39E3A6762C65FA90B6D46E2 /* Floaty-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Floaty-dummy.m"; sourceTree = "<group>"; };
+		CDF5799D2C758468166A63BBD0BEEB50 /* Emoji-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Emoji-swift-prefix.pch"; sourceTree = "<group>"; };
+		CFA1E3CAE9C1554D9250415DE8C9B6DF /* Emoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Emoji.framework; path = "Emoji-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C83D63C605A4E952D7773F343B078A /* Emoji-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Emoji-swift-umbrella.h"; sourceTree = "<group>"; };
+		D403AFE960A8C195AF274F8E7237950A /* String+Emoji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Emoji.swift"; path = "Sources/String+Emoji.swift"; sourceTree = "<group>"; };
 		D85BCD1CD94D3F05F9F480B0E49F18E4 /* Pods-WINF-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WINF-umbrella.h"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DA03E44861321218B1044393DD15FA80 /* Floaty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Floaty.framework; path = Floaty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF2A06B65EE2EB3E1BF4B4707F4C059B /* UDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UDatePicker.modulemap; sourceTree = "<group>"; };
-		E8A051869FEF33505299D7605BFBDD9C /* FloatyItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyItem.swift; path = Sources/FloatyItem.swift; sourceTree = "<group>"; };
-		EB569E675CCF64CB11C8C43331466253 /* Pods_WINF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WINF.framework; path = "Pods-WINF.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB740E956D1E9CBE4F730F9B942FF92C /* FloatyDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyDelegate.swift; path = Sources/FloatyDelegate.swift; sourceTree = "<group>"; };
-		EC4F5E92AF209F4DA8E66F038757E332 /* FloatyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyViewController.swift; path = Sources/FloatyViewController.swift; sourceTree = "<group>"; };
-		ED4FB0C2CACB32DBB84E107CCB16A55E /* FloatyWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyWindow.swift; path = Sources/FloatyWindow.swift; sourceTree = "<group>"; };
-		ED9E0D10F52567E4CF6D851AAF7D9AD4 /* RevealingSplashView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevealingSplashView.xcconfig; sourceTree = "<group>"; };
-		F1B38C12BAD61AEE8754AF6CA390264A /* RevealingSplashView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-prefix.pch"; sourceTree = "<group>"; };
-		F3EB79B84E2493BC0B47EC95FE9DC960 /* SplashAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimatable.swift; path = RevealingSplashView/SplashAnimatable.swift; sourceTree = "<group>"; };
+		E109849AABDCFBBDA8C3D3EA7B75E224 /* Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animations.swift; path = RevealingSplashView/Animations.swift; sourceTree = "<group>"; };
+		E19A9C980D7B40FA3E043029B1C46744 /* Floaty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Floaty.swift; path = Sources/Floaty.swift; sourceTree = "<group>"; };
+		E4313BDEB864F4D97BA47EF1D0D2D25E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDF8F0007110ADFFC8B14DF10FC1053 /* Emoji-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Emoji-swift.modulemap"; sourceTree = "<group>"; };
+		F36D2EDD0FE0281EACAFA30FA32276C7 /* Floaty.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Floaty.modulemap; sourceTree = "<group>"; };
+		FDCA9DE20706DDCFCFA3FF51E1B62FA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4E1FE152F45577415F743FA0D3E125 /* RevealingSplashView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RevealingSplashView.framework; path = RevealingSplashView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		215DCBBBEE5322009F154A0530EAD9FB /* Frameworks */ = {
+		35FADB0B365F7646CC2914C46A86EA48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BDAE9B31F05CCD1DFBBDD4035F6EB6D /* Foundation.framework in Frameworks */,
+				2EB08A39E2313AE5DB808CB92F655F2E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F53365659F5EEF8D3BE0AEC9C0F0D5A /* Frameworks */ = {
+		5E3B15DCE47A71A81CE6BC0311AD0F6D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5D1CEB8B73130A7101F1EE1A5867683 /* Foundation.framework in Frameworks */,
+				FFC2A8F4BC644C610F3EFC52320FAC9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDDE83C1B2FBFFA1EF3635B8D23B0F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B515AEC71CDC4FE7266C1285DA810B /* Foundation.framework in Frameworks */,
+				A4273F193B257309DD2C7942A7C6FD4B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,40 +165,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFC3BFAEDDEE52F6F86DE9BC09BF99A4 /* Frameworks */ = {
+		F70A4ACBECC518394BE0EA680A5B003E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				925E9DF5FBC671864CBAAA392A6028EF /* Foundation.framework in Frameworks */,
-				A90A11CE4B0842BAFB9CC3DAF12A8F25 /* UIKit.framework in Frameworks */,
+				6D36908235570054A6A8FC25A2B0F591 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04EC78E1E178E828B93A69255E731787 /* Pods */ = {
+		24F9B0C43E3C85E1FFD021F4F20C6A8B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E755DC5A1AF46C9F5C636DF9892FAAF8 /* Floaty */,
-				BF3EA0284A69B6069BEA03FE55144F8F /* RevealingSplashView */,
-				5AB6D366D62E5873B34F7F467F3AFC34 /* UDatePicker */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		2B03C8E784C4B306B2108A3C974D433C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5D5C5889479FCD8527FD80E16CD47EEE /* Floaty.modulemap */,
-				50CA0BE8D11569152734BEC9EBA0FD26 /* Floaty.xcconfig */,
-				6B7F81E23D3671FD7B56A870F5B6831B /* Floaty-dummy.m */,
-				15EEF2B962BC6DD1C8653485277EC530 /* Floaty-prefix.pch */,
-				D2C4D7CB4579F881EE5450F8A193E278 /* Floaty-umbrella.h */,
-				60AF3DB03FC409BAC9CC0060D483000C /* Info.plist */,
+				EFDF8F0007110ADFFC8B14DF10FC1053 /* Emoji-swift.modulemap */,
+				B7A66AFD233C1BAC28918429883DF8DA /* Emoji-swift.xcconfig */,
+				8C40EB8184637D3382C264EC5DE0D435 /* Emoji-swift-dummy.m */,
+				CDF5799D2C758468166A63BBD0BEEB50 /* Emoji-swift-prefix.pch */,
+				D3C83D63C605A4E952D7773F343B078A /* Emoji-swift-umbrella.h */,
+				AC2C2BD90591DE39CE5CB505882C6A98 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Floaty";
+			path = "../Target Support Files/Emoji-swift";
 			sourceTree = "<group>";
 		};
 		310013F01F8E49CC378227D7040E775C /* Targets Support Files */ = {
@@ -177,17 +196,6 @@
 				96BE962A19DC0FC5ADD06D6DBB4D1875 /* Pods-WINF */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		31816C74EBD0ACCAA93B485C5A6A6E30 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DA03E44861321218B1044393DD15FA80 /* Floaty.framework */,
-				EB569E675CCF64CB11C8C43331466253 /* Pods_WINF.framework */,
-				C109C0039BC0E20BE533D626DF632B02 /* RevealingSplashView.framework */,
-				A3A1295410728F653331F72D030FED90 /* UDatePicker.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -207,11 +215,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5AB6D366D62E5873B34F7F467F3AFC34 /* UDatePicker */ = {
+		615C3DE5187A04CA93EB79F72B39D86E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				50E13D993B2CEE64458FE6B66FE42ACF /* UDatePicker.swift */,
-				7F755F687279500A7161139497B5747A /* Support Files */,
+				FDCA9DE20706DDCFCFA3FF51E1B62FA6 /* Info.plist */,
+				3681199575F564A2E25EAE2F4E7321E0 /* RevealingSplashView.modulemap */,
+				9C8C598CD9F6C682E47333630597ED0D /* RevealingSplashView.xcconfig */,
+				AEF51F7BB386CEA469B2BBA362CC60FA /* RevealingSplashView-dummy.m */,
+				4F6B371823E07D1AE428CD69DF148307 /* RevealingSplashView-prefix.pch */,
+				4A5F11A36C0045A65C37CE9CEB406384 /* RevealingSplashView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RevealingSplashView";
+			sourceTree = "<group>";
+		};
+		66D3436418008CDB4DA8E2A455CB609B /* UDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				81122A958BE934BA474A290109583BD5 /* UDatePicker.swift */,
+				BA04017E2647FAA18E9E6D9DEDCD0B8A /* Support Files */,
 			);
 			name = UDatePicker;
 			path = UDatePicker;
@@ -222,24 +244,37 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				04EC78E1E178E828B93A69255E731787 /* Pods */,
-				31816C74EBD0ACCAA93B485C5A6A6E30 /* Products */,
+				9A48BB07124CF2F869B5C2F3B7312A6D /* Pods */,
+				93AB256777EF0C5757EDD465A69A447F /* Products */,
 				310013F01F8E49CC378227D7040E775C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7F755F687279500A7161139497B5747A /* Support Files */ = {
+		93AB256777EF0C5757EDD465A69A447F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BDE377816472CC2894744D8E4A79E232 /* Info.plist */,
-				DF2A06B65EE2EB3E1BF4B4707F4C059B /* UDatePicker.modulemap */,
-				5AF3C190021AB4962BD708B412BED3E0 /* UDatePicker.xcconfig */,
-				788162B818DC792ADA77B0268D0494CF /* UDatePicker-dummy.m */,
-				D1171878C3384A12DB8C326CA7D4225E /* UDatePicker-prefix.pch */,
-				2894942550C25AAB845F635A98EA3DF4 /* UDatePicker-umbrella.h */,
+				CFA1E3CAE9C1554D9250415DE8C9B6DF /* Emoji.framework */,
+				2F76DA014BE69ED8E61067FBCE051372 /* Floaty.framework */,
+				8A8F2656B0FEFFA2A5BE52EDE6AE34E9 /* Pods_WINF.framework */,
+				FF4E1FE152F45577415F743FA0D3E125 /* RevealingSplashView.framework */,
+				50CCA6EA7E7AC90966631DAEA59D1BA1 /* UDatePicker.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/UDatePicker";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95BCC72D51A79E5AE896BFFFA3CCC1F5 /* Floaty */ = {
+			isa = PBXGroup;
+			children = (
+				E19A9C980D7B40FA3E043029B1C46744 /* Floaty.swift */,
+				71E1203B93A099647E645FD6E4310866 /* FloatyDelegate.swift */,
+				736B4A84E3B4343278EC6773D347E1A0 /* FloatyItem.swift */,
+				7B1ED948B2891CD1A2E7C4A09B2468D7 /* FloatyManager.swift */,
+				203DB95E04B8F05C70D7436584E847CD /* FloatyViewController.swift */,
+				9CE49FF0FB0A1F95BCF8E3EB91FA39F4 /* FloatyWindow.swift */,
+				C6CBF6EC60981CBD8811D5B91EDEDC33 /* Support Files */,
+			);
+			name = Floaty;
+			path = Floaty;
 			sourceTree = "<group>";
 		};
 		96BE962A19DC0FC5ADD06D6DBB4D1875 /* Pods-WINF */ = {
@@ -260,74 +295,103 @@
 			path = "Target Support Files/Pods-WINF";
 			sourceTree = "<group>";
 		};
-		BF3EA0284A69B6069BEA03FE55144F8F /* RevealingSplashView */ = {
+		9A48BB07124CF2F869B5C2F3B7312A6D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B0CA142FDD0039F6E99BE9995F5C00A9 /* Animations.swift */,
-				A8B7B467B9AB1052DE018C9B1A15466E /* RevealingSplashView.h */,
-				9BD1772255D221FA096A3CF072782B4D /* RevealingSplashView.swift */,
-				F3EB79B84E2493BC0B47EC95FE9DC960 /* SplashAnimatable.swift */,
-				84BD726F52D4C7C268C1EBF0957AF84E /* SplashAnimationType.swift */,
-				CC12B2B90A86ED1B12C59F0B026FE8D8 /* Support Files */,
+				E5B1B2878646378B5AEAB55F54876583 /* Emoji-swift */,
+				95BCC72D51A79E5AE896BFFFA3CCC1F5 /* Floaty */,
+				E05719149187C006BC2B0C30A86A8CC4 /* RevealingSplashView */,
+				66D3436418008CDB4DA8E2A455CB609B /* UDatePicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA04017E2647FAA18E9E6D9DEDCD0B8A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4313BDEB864F4D97BA47EF1D0D2D25E /* Info.plist */,
+				6A36CBB108934FAFB7D3BA00C2B42543 /* UDatePicker.modulemap */,
+				2EB4E3D144ADC8DA8D3FE36776D470F8 /* UDatePicker.xcconfig */,
+				B25919FD940BD188244C7A9AA6AE1BA0 /* UDatePicker-dummy.m */,
+				56BC7DE1C649268A231F1292A3FC9671 /* UDatePicker-prefix.pch */,
+				31458CA06ED3D6DBFFB81CE21B257F99 /* UDatePicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UDatePicker";
+			sourceTree = "<group>";
+		};
+		C6CBF6EC60981CBD8811D5B91EDEDC33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F36D2EDD0FE0281EACAFA30FA32276C7 /* Floaty.modulemap */,
+				66354085EB47A16DC7D10CBEA8B7976C /* Floaty.xcconfig */,
+				BFE4E69FA39E3A6762C65FA90B6D46E2 /* Floaty-dummy.m */,
+				774E2E39D74117B6E2CADBD5D46FFBFE /* Floaty-prefix.pch */,
+				97C7E7A62D8F945E220506EB8DD553F2 /* Floaty-umbrella.h */,
+				0C28799D38E12C74B0FA6C21AEB6A898 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Floaty";
+			sourceTree = "<group>";
+		};
+		E05719149187C006BC2B0C30A86A8CC4 /* RevealingSplashView */ = {
+			isa = PBXGroup;
+			children = (
+				E109849AABDCFBBDA8C3D3EA7B75E224 /* Animations.swift */,
+				1A18BFB9A026B01C3DC701005EB1F08D /* RevealingSplashView.h */,
+				8079CA0EC8B2B9C56087C21D6EB76D35 /* RevealingSplashView.swift */,
+				AA4ACB3653F96A0149E982BFBD66EBD2 /* SplashAnimatable.swift */,
+				639CA0D20A6881311EF5CF2F743744D7 /* SplashAnimationType.swift */,
+				615C3DE5187A04CA93EB79F72B39D86E /* Support Files */,
 			);
 			name = RevealingSplashView;
 			path = RevealingSplashView;
 			sourceTree = "<group>";
 		};
-		CC12B2B90A86ED1B12C59F0B026FE8D8 /* Support Files */ = {
+		E5B1B2878646378B5AEAB55F54876583 /* Emoji-swift */ = {
 			isa = PBXGroup;
 			children = (
-				395670A0F07802557A0C2E89580A0C33 /* Info.plist */,
-				560B4C74B32248A62AB19961DD2EE82F /* RevealingSplashView.modulemap */,
-				ED9E0D10F52567E4CF6D851AAF7D9AD4 /* RevealingSplashView.xcconfig */,
-				8C0A4F917DBF83871781657FF48EE773 /* RevealingSplashView-dummy.m */,
-				F1B38C12BAD61AEE8754AF6CA390264A /* RevealingSplashView-prefix.pch */,
-				19E073BA0AE7D7CE3DFA83E21C0555B4 /* RevealingSplashView-umbrella.h */,
+				8FFDDF5C07D15306B4BB063830ED7C08 /* Emoji.swift */,
+				D403AFE960A8C195AF274F8E7237950A /* String+Emoji.swift */,
+				24F9B0C43E3C85E1FFD021F4F20C6A8B /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/RevealingSplashView";
-			sourceTree = "<group>";
-		};
-		E755DC5A1AF46C9F5C636DF9892FAAF8 /* Floaty */ = {
-			isa = PBXGroup;
-			children = (
-				57741CDB633598526C19E5C041AD57CA /* Floaty.swift */,
-				EB740E956D1E9CBE4F730F9B942FF92C /* FloatyDelegate.swift */,
-				E8A051869FEF33505299D7605BFBDD9C /* FloatyItem.swift */,
-				8297525F8D7A05C31782E2B3132FC8B0 /* FloatyManager.swift */,
-				EC4F5E92AF209F4DA8E66F038757E332 /* FloatyViewController.swift */,
-				ED4FB0C2CACB32DBB84E107CCB16A55E /* FloatyWindow.swift */,
-				2B03C8E784C4B306B2108A3C974D433C /* Support Files */,
-			);
-			name = Floaty;
-			path = Floaty;
+			name = "Emoji-swift";
+			path = "Emoji-swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		090F887844824C6D23BBB89C63258037 /* Headers */ = {
+		0E9340B055C95A23FF762D69DA0037C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D951641879246B8B818BAD93DB22848A /* UDatePicker-umbrella.h in Headers */,
+				DA24DE0D8B858C83ADB23912E80FFE8E /* Pods-WINF-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66CC3A1205C38F20BB4A4B1873F6AEBB /* Headers */ = {
+		271C7B2065499A0088FAFD284BE9D538 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BA553AE4D443E188868147BF9EE0610 /* RevealingSplashView-umbrella.h in Headers */,
-				18FAC351847FB4239FBB3EB781556B9D /* RevealingSplashView.h in Headers */,
+				3ABEC5E876541EEC446DEA827F30FD77 /* RevealingSplashView-umbrella.h in Headers */,
+				98C506B7FCF7566CCE60E8C6988CDF2E /* RevealingSplashView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		821A3DE9B1B9A69DA104D986D54D1E30 /* Headers */ = {
+		3088F9CC2D00408820AAE43C31AD878B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				227AF99604136AC7BC1990A323FEF680 /* Pods-WINF-umbrella.h in Headers */,
+				91326CBD2B65FADDBE34CA5BA63DB9E4 /* UDatePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456C95FFD41E57B73FD646B26ADD4472 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE623EE62083AAABAD2B33A9298C3F5B /* Emoji-swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,13 +406,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		35CA49A4A94ECDD8E4F6432849E91D72 /* RevealingSplashView */ = {
+		0E37CDDF5040C455E785F77D3177DE86 /* RevealingSplashView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 168BB623C3EDCF5E868CFEF5CF5B8E45 /* Build configuration list for PBXNativeTarget "RevealingSplashView" */;
+			buildConfigurationList = EB896869B323912272182E0112472E9B /* Build configuration list for PBXNativeTarget "RevealingSplashView" */;
 			buildPhases = (
-				63092083139A90D73F9AA1B73E6739E6 /* Sources */,
-				4F53365659F5EEF8D3BE0AEC9C0F0D5A /* Frameworks */,
-				66CC3A1205C38F20BB4A4B1873F6AEBB /* Headers */,
+				5610D74B10482220AC7A795A3BB6F3DC /* Sources */,
+				35FADB0B365F7646CC2914C46A86EA48 /* Frameworks */,
+				271C7B2065499A0088FAFD284BE9D538 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -356,7 +420,24 @@
 			);
 			name = RevealingSplashView;
 			productName = RevealingSplashView;
-			productReference = C109C0039BC0E20BE533D626DF632B02 /* RevealingSplashView.framework */;
+			productReference = FF4E1FE152F45577415F743FA0D3E125 /* RevealingSplashView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		307523A8BC1383BC2F02E2A2CDBFB95F /* UDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E5A7C6D6FCA91931C20F8991CB1D107 /* Build configuration list for PBXNativeTarget "UDatePicker" */;
+			buildPhases = (
+				76A2D737F36B76B98CB6E5B91727D5D6 /* Sources */,
+				BBDDE83C1B2FBFFA1EF3635B8D23B0F1 /* Frameworks */,
+				3088F9CC2D00408820AAE43C31AD878B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UDatePicker;
+			productName = UDatePicker;
+			productReference = 50CCA6EA7E7AC90966631DAEA59D1BA1 /* UDatePicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5C123A74CD9D6CDA27160800BA68B01A /* Floaty */ = {
@@ -373,44 +454,45 @@
 			);
 			name = Floaty;
 			productName = Floaty;
-			productReference = DA03E44861321218B1044393DD15FA80 /* Floaty.framework */;
+			productReference = 2F76DA014BE69ED8E61067FBCE051372 /* Floaty.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E6A20367DAD6654B88D33B6BD8384872 /* Pods-WINF */ = {
+		64083A315688C6510A6B3A158B59C3A5 /* Pods-WINF */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98965B05E51BA7AB5B481A66514FC622 /* Build configuration list for PBXNativeTarget "Pods-WINF" */;
+			buildConfigurationList = AC2FCBDFF45B106A0DDE6011D0524135 /* Build configuration list for PBXNativeTarget "Pods-WINF" */;
 			buildPhases = (
-				B94F5450716A16CFBD85D50A78C153CA /* Sources */,
-				215DCBBBEE5322009F154A0530EAD9FB /* Frameworks */,
-				821A3DE9B1B9A69DA104D986D54D1E30 /* Headers */,
+				8B9493D787238C54A1FE30754929BEEC /* Sources */,
+				5E3B15DCE47A71A81CE6BC0311AD0F6D /* Frameworks */,
+				0E9340B055C95A23FF762D69DA0037C0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A82C1EE236053703861E4AFACB85718A /* PBXTargetDependency */,
-				EDAF2C012A23664E03DA60D75F764F66 /* PBXTargetDependency */,
-				D1248944AA616F54B7B46A511D4BB877 /* PBXTargetDependency */,
+				1D5F687292EA12127640F992B22FF10A /* PBXTargetDependency */,
+				451CA7701E1E9BD2294AC552B8ABE1FD /* PBXTargetDependency */,
+				782383F9F286F37E487A1E25D4469C71 /* PBXTargetDependency */,
+				E4BE14E4F238DE7D49E432F97F3A3B62 /* PBXTargetDependency */,
 			);
 			name = "Pods-WINF";
 			productName = "Pods-WINF";
-			productReference = EB569E675CCF64CB11C8C43331466253 /* Pods_WINF.framework */;
+			productReference = 8A8F2656B0FEFFA2A5BE52EDE6AE34E9 /* Pods_WINF.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FAA22601C03D760892795DA97C04E892 /* UDatePicker */ = {
+		A110C19F74AAA2B8904BE7913A0BC4D9 /* Emoji-swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D09D6BF81B0D56FB2FE620D5BB51C3AC /* Build configuration list for PBXNativeTarget "UDatePicker" */;
+			buildConfigurationList = ABEC4BEEEE69EF897976B87A1398E688 /* Build configuration list for PBXNativeTarget "Emoji-swift" */;
 			buildPhases = (
-				ADDD2A2791468289DB045D25380D867E /* Sources */,
-				FFC3BFAEDDEE52F6F86DE9BC09BF99A4 /* Frameworks */,
-				090F887844824C6D23BBB89C63258037 /* Headers */,
+				91BF54B365139598D3832F5B19FC8D41 /* Sources */,
+				F70A4ACBECC518394BE0EA680A5B003E /* Frameworks */,
+				456C95FFD41E57B73FD646B26ADD4472 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = UDatePicker;
-			productName = UDatePicker;
-			productReference = A3A1295410728F653331F72D030FED90 /* UDatePicker.framework */;
+			name = "Emoji-swift";
+			productName = "Emoji-swift";
+			productReference = CFA1E3CAE9C1554D9250415DE8C9B6DF /* Emoji.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -430,19 +512,32 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 31816C74EBD0ACCAA93B485C5A6A6E30 /* Products */;
+			productRefGroup = 93AB256777EF0C5757EDD465A69A447F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				A110C19F74AAA2B8904BE7913A0BC4D9 /* Emoji-swift */,
 				5C123A74CD9D6CDA27160800BA68B01A /* Floaty */,
-				E6A20367DAD6654B88D33B6BD8384872 /* Pods-WINF */,
-				35CA49A4A94ECDD8E4F6432849E91D72 /* RevealingSplashView */,
-				FAA22601C03D760892795DA97C04E892 /* UDatePicker */,
+				64083A315688C6510A6B3A158B59C3A5 /* Pods-WINF */,
+				0E37CDDF5040C455E785F77D3177DE86 /* RevealingSplashView */,
+				307523A8BC1383BC2F02E2A2CDBFB95F /* UDatePicker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5610D74B10482220AC7A795A3BB6F3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB66EE71719A9E86EA1637C357B30575 /* Animations.swift in Sources */,
+				EFF8E98987F57AFE9A5C69BCD97B594F /* RevealingSplashView-dummy.m in Sources */,
+				0F6F5A9F30CA8CDD55A4B53F2B3E4A19 /* RevealingSplashView.swift in Sources */,
+				6C04717F50EA094937D428A9D70F01E6 /* SplashAnimatable.swift in Sources */,
+				9343B2D1692B08BB08D345265E25EB13 /* SplashAnimationType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58D385880A221FD41E30877A347BC358 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -457,59 +552,129 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63092083139A90D73F9AA1B73E6739E6 /* Sources */ = {
+		76A2D737F36B76B98CB6E5B91727D5D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FE91A0F156F06F2669F32D966F4F4A2 /* Animations.swift in Sources */,
-				B209E6CEE64964E2265235FA062554F4 /* RevealingSplashView-dummy.m in Sources */,
-				10BF8046B73D6DB0654FA1E9210A8FAE /* RevealingSplashView.swift in Sources */,
-				82F938C1AB1630E976463D6DF8D5EE67 /* SplashAnimatable.swift in Sources */,
-				8156D99FC2C259B53AB07EA612862C5B /* SplashAnimationType.swift in Sources */,
+				C2DDBB85073953CF768AFF44741FEE2F /* UDatePicker-dummy.m in Sources */,
+				56500E03D26C02FBDC5435B5AFBFF8E3 /* UDatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADDD2A2791468289DB045D25380D867E /* Sources */ = {
+		8B9493D787238C54A1FE30754929BEEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D049785B9BE6831CC665FC1041A163CD /* UDatePicker-dummy.m in Sources */,
-				40D026CB4DE1EE9A86C7B1B87BD6CC0C /* UDatePicker.swift in Sources */,
+				89178000FCB1A7D35F5F66AC2495E1C6 /* Pods-WINF-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B94F5450716A16CFBD85D50A78C153CA /* Sources */ = {
+		91BF54B365139598D3832F5B19FC8D41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1939DBB5FD4740C7BD8A0F3ADBD4370D /* Pods-WINF-dummy.m in Sources */,
+				E50EA65C674774001D897A08D00D27D4 /* Emoji-swift-dummy.m in Sources */,
+				DC03A2CB6E2989ABBAF94A763969D797 /* Emoji.swift in Sources */,
+				705437E472C3BAC7DC992D200446B855 /* String+Emoji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A82C1EE236053703861E4AFACB85718A /* PBXTargetDependency */ = {
+		1D5F687292EA12127640F992B22FF10A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Emoji-swift";
+			target = A110C19F74AAA2B8904BE7913A0BC4D9 /* Emoji-swift */;
+			targetProxy = 9C6278AFA9DAE7A8781A5AF96032F4AD /* PBXContainerItemProxy */;
+		};
+		451CA7701E1E9BD2294AC552B8ABE1FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Floaty;
 			target = 5C123A74CD9D6CDA27160800BA68B01A /* Floaty */;
-			targetProxy = 3EAACF8C81902551D2AAC8AC8553C387 /* PBXContainerItemProxy */;
+			targetProxy = F54D74D975B2B5B243DE5F46A3598728 /* PBXContainerItemProxy */;
 		};
-		D1248944AA616F54B7B46A511D4BB877 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UDatePicker;
-			target = FAA22601C03D760892795DA97C04E892 /* UDatePicker */;
-			targetProxy = C4DDC3402A405861FE3AEB064A60CCD9 /* PBXContainerItemProxy */;
-		};
-		EDAF2C012A23664E03DA60D75F764F66 /* PBXTargetDependency */ = {
+		782383F9F286F37E487A1E25D4469C71 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RevealingSplashView;
-			target = 35CA49A4A94ECDD8E4F6432849E91D72 /* RevealingSplashView */;
-			targetProxy = 4D2107312CAEEDFD1EEC1B989BFA53DB /* PBXContainerItemProxy */;
+			target = 0E37CDDF5040C455E785F77D3177DE86 /* RevealingSplashView */;
+			targetProxy = 04F4374B286C39F187F6EDE48735163D /* PBXContainerItemProxy */;
+		};
+		E4BE14E4F238DE7D49E432F97F3A3B62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UDatePicker;
+			target = 307523A8BC1383BC2F02E2A2CDBFB95F /* UDatePicker */;
+			targetProxy = DA838394A7E98AEDBE8981FB9CD50817 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		088B9D684D80238766FC1AA5F223535C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D0BD2D85BB56149FC143530B1D4DA3 /* Pods-WINF.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WINF/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WINF/Pods-WINF.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WINF;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0FA9F44C1BCB1091285C2103E489740E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB4E3D144ADC8DA8D3FE36776D470F8 /* UDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UDatePicker/UDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UDatePicker/UDatePicker.modulemap";
+				PRODUCT_NAME = UDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -567,7 +732,7 @@
 		};
 		170AB5C761177C756E452871F5948FD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50CA0BE8D11569152734BEC9EBA0FD26 /* Floaty.xcconfig */;
+			baseConfigurationReference = 66354085EB47A16DC7D10CBEA8B7976C /* Floaty.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -585,37 +750,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Floaty/Floaty.modulemap";
 				PRODUCT_NAME = Floaty;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		34C42471B951F568F707B8CBF940CC13 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED9E0D10F52567E4CF6D851AAF7D9AD4 /* RevealingSplashView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
-				PRODUCT_NAME = RevealingSplashView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -629,7 +763,7 @@
 		};
 		4C29DBCE921C61C3E9D588EE6F2A786C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50CA0BE8D11569152734BEC9EBA0FD26 /* Floaty.xcconfig */;
+			baseConfigurationReference = 66354085EB47A16DC7D10CBEA8B7976C /* Floaty.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -647,6 +781,38 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Floaty/Floaty.modulemap";
 				PRODUCT_NAME = Floaty;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4EEC7DFBD8DE80F70A9349012EE11BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A66AFD233C1BAC28918429883DF8DA /* Emoji-swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Emoji-swift/Emoji-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Emoji-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Emoji-swift/Emoji-swift.modulemap";
+				PRODUCT_NAME = Emoji;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -719,9 +885,9 @@
 			};
 			name = Debug;
 		};
-		727AB9730CA3E0D7EC7433102C441F50 /* Release */ = {
+		85893DD7218DF34689C484F37AF9DD0C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65D0BD2D85BB56149FC143530B1D4DA3 /* Pods-WINF.release.xcconfig */;
+			baseConfigurationReference = B7A66AFD233C1BAC28918429883DF8DA /* Emoji-swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -732,47 +898,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WINF/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WINF/Pods-WINF.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WINF;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C47BCDE95AC642BEA6014701C77B0F14 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AF3C190021AB4962BD708B412BED3E0 /* UDatePicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UDatePicker/UDatePicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UDatePicker/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Emoji-swift/Emoji-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Emoji-swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UDatePicker/UDatePicker.modulemap";
-				PRODUCT_NAME = UDatePicker;
+				MODULEMAP_FILE = "Target Support Files/Emoji-swift/Emoji-swift.modulemap";
+				PRODUCT_NAME = Emoji;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -784,9 +916,9 @@
 			};
 			name = Debug;
 		};
-		C65571A034569F0D1126B2F83A602DD3 /* Release */ = {
+		95424D3FC569A65F641481A7984DF936 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED9E0D10F52567E4CF6D851AAF7D9AD4 /* RevealingSplashView.xcconfig */;
+			baseConfigurationReference = 9C8C598CD9F6C682E47333630597ED0D /* RevealingSplashView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -816,9 +948,40 @@
 			};
 			name = Release;
 		};
-		C671ACCB16A05C7612B4DEF2AC44B50F /* Release */ = {
+		C94212D0026CCC2873375497391A945A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AF3C190021AB4962BD708B412BED3E0 /* UDatePicker.xcconfig */;
+			baseConfigurationReference = 9C8C598CD9F6C682E47333630597ED0D /* RevealingSplashView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
+				PRODUCT_NAME = RevealingSplashView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFDF3DD07E6C1762501F0058E66D6FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB4E3D144ADC8DA8D3FE36776D470F8 /* UDatePicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -839,16 +1002,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		FEA37FC86F4D9DCEF5550EE2BB781A23 /* Debug */ = {
+		FBA72BEC5ACA724708245EF50DCED052 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 83391317358047B547C4C744A75FBA01 /* Pods-WINF.debug.xcconfig */;
 			buildSettings = {
@@ -894,15 +1056,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		168BB623C3EDCF5E868CFEF5CF5B8E45 /* Build configuration list for PBXNativeTarget "RevealingSplashView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				34C42471B951F568F707B8CBF940CC13 /* Debug */,
-				C65571A034569F0D1126B2F83A602DD3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -912,20 +1065,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98965B05E51BA7AB5B481A66514FC622 /* Build configuration list for PBXNativeTarget "Pods-WINF" */ = {
+		9E5A7C6D6FCA91931C20F8991CB1D107 /* Build configuration list for PBXNativeTarget "UDatePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEA37FC86F4D9DCEF5550EE2BB781A23 /* Debug */,
-				727AB9730CA3E0D7EC7433102C441F50 /* Release */,
+				DFDF3DD07E6C1762501F0058E66D6FE7 /* Debug */,
+				0FA9F44C1BCB1091285C2103E489740E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D09D6BF81B0D56FB2FE620D5BB51C3AC /* Build configuration list for PBXNativeTarget "UDatePicker" */ = {
+		ABEC4BEEEE69EF897976B87A1398E688 /* Build configuration list for PBXNativeTarget "Emoji-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C47BCDE95AC642BEA6014701C77B0F14 /* Debug */,
-				C671ACCB16A05C7612B4DEF2AC44B50F /* Release */,
+				85893DD7218DF34689C484F37AF9DD0C /* Debug */,
+				4EEC7DFBD8DE80F70A9349012EE11BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2FCBDFF45B106A0DDE6011D0524135 /* Build configuration list for PBXNativeTarget "Pods-WINF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA72BEC5ACA724708245EF50DCED052 /* Debug */,
+				088B9D684D80238766FC1AA5F223535C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB896869B323912272182E0112472E9B /* Build configuration list for PBXNativeTarget "RevealingSplashView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94212D0026CCC2873375497391A945A /* Debug */,
+				95424D3FC569A65F641481A7984DF936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

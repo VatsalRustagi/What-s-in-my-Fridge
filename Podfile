@@ -7,6 +7,7 @@ target 'WINF' do
   pod 'RevealingSplashView'
   pod "Floaty", "~> 3.0.0"
   pod 'UDatePicker'
+  pod 'Emoji-swift'
   # Pods for WINF
 
 end

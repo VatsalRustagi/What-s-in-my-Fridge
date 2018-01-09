@@ -12,7 +12,7 @@ import RevealingSplashView
 import Floaty
 import UserNotifications
 import UDatePicker
-
+import Emoji
 
 class MainVC: UIViewController{
     
@@ -35,8 +35,7 @@ class MainVC: UIViewController{
             self.attemptFetch()
         }
         
-        setupSepView()
-        setupTableViewBG()
+        initUI()
         
         optionsButton.addItem("Clear All", icon: #imageLiteral(resourceName: "trash"), handler: {item in
             self.deleteAllItems()
@@ -50,6 +49,7 @@ class MainVC: UIViewController{
         optionsButton.openAnimationType = .pop
         
         self.fridgeItem.delegate = self
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -62,14 +62,6 @@ class MainVC: UIViewController{
     
     func dismissKeyboard(){
         view.endEditing(true)
-    }
-    
-    func setupSepView(){
-        seperatorView.layer.cornerRadius = 1.0
-        seperatorView.layer.shadowOffset = CGSize(width: 0.0, height: 1.0)
-        seperatorView.layer.shadowColor = UIColor.darkGray.cgColor
-        seperatorView.layer.shadowRadius = 2.0
-        seperatorView.layer.shadowOpacity = 0.8
     }
     
     func attemptFetch(){
@@ -144,11 +136,16 @@ class MainVC: UIViewController{
     @IBOutlet weak var titleView: UILabel!
     @IBOutlet weak var fridgeItem: UITextField!
     @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var seperatorView: UIView!
     @IBOutlet weak var optionsButton: Floaty!
+    @IBOutlet weak var detailsView: UIView!
     @IBOutlet weak var expiryBtn: UIButton!
+    @IBOutlet weak var segmentedController: UISegmentedControl!
+    @IBOutlet weak var addItemButton: UIButton!
     
+    @IBOutlet weak var unitButton: UIButton!
+    @IBOutlet weak var categoryButton: UIButton!
     @IBAction func addItem(_ sender: UIButton) {
+        changeTextTo(message: "Welcome!")
         saveItem()
     }
     
@@ -169,7 +166,7 @@ extension MainVC: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 60
+        return 100
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -178,13 +175,6 @@ extension MainVC: UITableViewDelegate, UITableViewDataSource{
             return cell
         }
         return UITableViewCell()
-    }
-    
-    func setupTableViewBG(){
-        let imageView = UIImageView(frame: CGRect(x: tableView.center.x - 100, y: tableView.center.y - 150, width: 200, height: 300))
-        imageView.image = #imageLiteral(resourceName: "fridge")
-        imageView.contentMode = .center
-        tableView.backgroundView = imageView
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -251,33 +241,6 @@ extension MainVC: UITextFieldDelegate{
             self.dismissKeyboard()
         }
         return true
-    }
-}
-
-extension MainVC{
-    func createNotification(item: Items){
-        let content = UNMutableNotificationContent()
-        content.title = "Your \(item.name!.trimmingCharacters(in: .whitespacesAndNewlines)) has expired."
-        
-        let newDate = Date(timeIntervalSinceNow: 0)
-        let timeInterval = (item.date!).timeIntervalSince(newDate)
-        var trigger: UNTimeIntervalNotificationTrigger
-        
-        if timeInterval <= 0{
-            let currentHour = Calendar.current.component(.hour, from: Date())
-            trigger = UNTimeIntervalNotificationTrigger(timeInterval: (TimeInterval((24.5 - Double(currentHour))*3600)), repeats: false)
-        }
-        else{
-            trigger = UNTimeIntervalNotificationTrigger(timeInterval: timeInterval, repeats: false)
-        }
-        
-        
-        let notificationUUID = UUID().uuidString
-        item.id = notificationUUID
-        appDelegate.saveContext()
-        
-        let request = UNNotificationRequest(identifier: notificationUUID, content: content, trigger: trigger)
-        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
     }
 }
 

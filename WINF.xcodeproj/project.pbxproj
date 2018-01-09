@@ -14,6 +14,9 @@
 		51271BE61F35223D00820723 /* FridgeItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51271BE31F35223D00820723 /* FridgeItemCell.swift */; };
 		51271BEA1F35233200820723 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51271BE81F35233200820723 /* Model.xcdatamodeld */; };
 		5163998F1FAC74B0005939CA /* MainVC extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5163998E1FAC74B0005939CA /* MainVC extension.swift */; };
+		517608E92004FB06008D7BA5 /* MainVC Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517608E82004FB06008D7BA5 /* MainVC Notifications.swift */; };
+		517608EB2004FC0C008D7BA5 /* MainVC UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517608EA2004FC0C008D7BA5 /* MainVC UI.swift */; };
+		517608ED20050E9B008D7BA5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517608EC20050E9B008D7BA5 /* Utils.swift */; };
 		518113101F56396C005D9A31 /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181130F1F56396C005D9A31 /* ItemDetailsVC.swift */; };
 		51B0545A1FF52C990014F12D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B054591FF52C980014F12D /* Assets.xcassets */; };
 		B8C21B795B137A7656202A4F /* Pods_WINF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23130D96160341DEF0521FC5 /* Pods_WINF.framework */; };
@@ -31,6 +34,9 @@
 		51271BE31F35223D00820723 /* FridgeItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FridgeItemCell.swift; sourceTree = "<group>"; };
 		51271BE91F35233200820723 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		5163998E1FAC74B0005939CA /* MainVC extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC extension.swift"; sourceTree = "<group>"; };
+		517608E82004FB06008D7BA5 /* MainVC Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC Notifications.swift"; sourceTree = "<group>"; };
+		517608EA2004FC0C008D7BA5 /* MainVC UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC UI.swift"; sourceTree = "<group>"; };
+		517608EC20050E9B008D7BA5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		5181130F1F56396C005D9A31 /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
 		51B054591FF52C980014F12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C997217E42AEF8EEE3B6DBD /* Pods-WINF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WINF.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WINF/Pods-WINF.debug.xcconfig"; sourceTree = "<group>"; };
@@ -88,9 +94,12 @@
 			children = (
 				51271BE21F35223D00820723 /* MainVC.swift */,
 				5163998E1FAC74B0005939CA /* MainVC extension.swift */,
+				517608E82004FB06008D7BA5 /* MainVC Notifications.swift */,
+				517608EA2004FC0C008D7BA5 /* MainVC UI.swift */,
 				51271BE31F35223D00820723 /* FridgeItemCell.swift */,
 				51271BCD1F3521F700820723 /* AppDelegate.swift */,
 				5181130F1F56396C005D9A31 /* ItemDetailsVC.swift */,
+				517608EC20050E9B008D7BA5 /* Utils.swift */,
 				51271BD11F3521F700820723 /* Main.storyboard */,
 				51271BD91F3521F700820723 /* LaunchScreen.storyboard */,
 				51271BDC1F3521F700820723 /* Info.plist */,
@@ -195,12 +204,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WINF/Pods-WINF-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Emoji-swift/Emoji.framework",
 				"${BUILT_PRODUCTS_DIR}/Floaty/Floaty.framework",
 				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
 				"${BUILT_PRODUCTS_DIR}/UDatePicker/UDatePicker.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Emoji.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Floaty.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UDatePicker.framework",
@@ -238,9 +249,12 @@
 				518113101F56396C005D9A31 /* ItemDetailsVC.swift in Sources */,
 				5163998F1FAC74B0005939CA /* MainVC extension.swift in Sources */,
 				51271BE61F35223D00820723 /* FridgeItemCell.swift in Sources */,
+				517608E92004FB06008D7BA5 /* MainVC Notifications.swift in Sources */,
 				51271BEA1F35233200820723 /* Model.xcdatamodeld in Sources */,
 				51271BE51F35223D00820723 /* MainVC.swift in Sources */,
+				517608EB2004FC0C008D7BA5 /* MainVC UI.swift in Sources */,
 				51271BCE1F3521F700820723 /* AppDelegate.swift in Sources */,
+				517608ED20050E9B008D7BA5 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
